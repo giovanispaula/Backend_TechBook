@@ -1,16 +1,16 @@
 package com.techbook.techbook.repositories;
 
-import Backend.entities.Books;
-import Backend.entities.Categories;
+import com.techbook.techbook.entities.Book;
+import com.techbook.techbook.entities.Category;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface BooksRepository extends JpaRepository<Books, Integer> {
+public interface IBookRepository extends JpaRepository<Book, Integer> {
 
     @Query
-    List<Books> findAllByCategories(Categories categories);
+    List<Book> findAllByCategories(Category category);
 
 }

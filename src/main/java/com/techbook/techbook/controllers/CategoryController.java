@@ -1,7 +1,7 @@
 package com.techbook.techbook.controllers;
 
-import Backend.entities.Categories;
-import Backend.services.CategoriesService;
+import com.techbook.techbook.entities.Category;
+import com.techbook.techbook.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,23 +12,23 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/products/categories")
-public class CategoriesController {
+public class CategoryController {
 
-    private final CategoriesService categoriesService;
+    private final CategoryService categoryService;
 
     @Autowired
-    public CategoriesController(CategoriesService categoriesService) {
-        this.categoriesService = categoriesService;
+    public CategoryController(CategoryService categoryService) {
+        this.categoryService = categoryService;
         loadData();
     }
 
     @GetMapping
-    public ResponseEntity<List<Categories>> listCategories() {
-        return ResponseEntity.ok(categoriesService.listCategories());
+    public ResponseEntity<List<Category>> listCategories() {
+        return ResponseEntity.ok(categoryService.listCategories());
     }
 
     public void loadData() {
-        categoriesService.LoadData();
+        categoryService.LoadData();
     }
 
 }

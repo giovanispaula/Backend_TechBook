@@ -1,24 +1,24 @@
 package com.techbook.techbook.services;
 
-import Backend.entities.Books;
-import Backend.entities.Categories;
-import Backend.repositories.BooksRepository;
-import Backend.repositories.CategoriesRepository;
+import com.techbook.techbook.entities.Book;
+import com.techbook.techbook.entities.Category;
+import com.techbook.techbook.repositories.IBookRepository;
+import com.techbook.techbook.repositories.ICategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Component
-public class CategoriesService {
+public class CategoryService {
 
     @Autowired
-    private CategoriesRepository categoriesRepository;
+    private ICategoryRepository categoryRepository;
 
-    private BooksRepository booksRepository;
+    private IBookRepository bookRepository;
 
-    public List<Categories> listCategories() {
-        return categoriesRepository.findAll();
+    public List<Category> listCategories() {
+        return categoryRepository.findAll();
     }
 
     public void LoadData() {

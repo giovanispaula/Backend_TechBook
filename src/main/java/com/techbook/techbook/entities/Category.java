@@ -9,22 +9,22 @@ import java.util.Set;
 
 @Entity
 @Table
-public class Categories {
+public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
 
-    @OneToMany(mappedBy = "categories", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY)
 //    @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-    private Set<Books> books = new HashSet<>();
+    private Set<Book> books = new HashSet<>();
 
 
-    public Categories() {
+    public Category() {
     }
 
-    public Categories(String name) {
+    public Category(String name) {
         this.name = name;
     }
 

@@ -1,45 +1,44 @@
 package com.techbook.techbook.controllers;
 
 
-import Backend.entities.Books;
-import Backend.entities.NameCategory;
-import Backend.services.BooksService;
+import com.techbook.techbook.entities.Book;
+import com.techbook.techbook.entities.NameCategory;
+import com.techbook.techbook.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.print.Book;
 import java.util.List;
 
 @RestController
 @RequestMapping("/products")
-public class BooksController {
+public class BookController {
 
-    private final BooksService booksService;
+    private final BookService bookService;
 
     @Autowired
-    public BooksController(BooksService booksService) {
-        this.booksService = booksService;
+    public BookController(BookService bookService) {
+        this.bookService = bookService;
     }
 
     //exibe todos os livros
     @GetMapping
-    public ResponseEntity<List<Books>> listBooks() {
-        return ResponseEntity.ok(booksService.listBooks());
+    public ResponseEntity<List<Book>> listBooks() {
+        return ResponseEntity.ok(bookService.listBooks());
     }
 
     //exibe livro por ID
     @GetMapping("/{id}")
-    public ResponseEntity<Books> listId(@PathVariable Integer id) {
-        Books books = booksService.listId(id).orElse(null);
+    public ResponseEntity<Book> listId(@PathVariable Integer id) {
+        Book books = bookService.listId(id).orElse(null);
         return ResponseEntity.ok(books);
     }
 
     //exibe livros por categoria
     @GetMapping("/categories/{nameCategory}")
-    public List<Books> listByCategory(@PathVariable("nameCategory") String nameCategory) {
+    public List<Book> listByCategory(@PathVariable("nameCategory") String nameCategory) {
         NameCategory stringParaEnum = NameCategory.valueOf(nameCategory.toUpperCase());
-        return booksService.listByCategory(stringParaEnum);
+        return bookService.listByCategory(stringParaEnum);
     }
 
 }

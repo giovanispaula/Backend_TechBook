@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Data
 @Entity
 @Table
-public class Books {
+public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,18 +20,18 @@ public class Books {
     private String image;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "categories_id")
-    private Categories categories;
+    @JoinColumn(name = "category_id")
+    private Category category;
 
-    public Books() {
+    public Book() {
     }
 
-    public Books(String title, Double price, String description, String image, Categories categories) {
+    public Book(String title, Double price, String description, String image, Category category) {
         this.title = title;
         this.price = price;
         this.description = description;
         this.image = image;
-        this.categories = categories;
+        this.category = category;
     }
 
 
@@ -75,10 +75,11 @@ public class Books {
         this.image = image;
     }
 
-    public Categories getCategories() {
-        return categories;
+    public Category getCategory() {
+        return category;
     }
 
-    public void setCategories(Categories categories) {
-        this.categories = categories;
+    public void setCategory(Category category) {
+        this.category = category;
     }
+}

@@ -1,4 +1,4 @@
-package com.techbook.techbook.controllers;
+package com.techbook.techbook.entities;
 
 public enum NameCategory {
 
