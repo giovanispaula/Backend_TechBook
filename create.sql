@@ -12,7 +12,7 @@
 --    name varchar(100)
 --    );
 
-insert into category name values ""
+insert into category (name) values ("TECNOLOGIA"), ("DIREITO"), ("FICÇÃO");
 
 insert into books (
     title,
