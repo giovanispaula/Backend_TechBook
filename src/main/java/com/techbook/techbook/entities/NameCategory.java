@@ -1,5 +1,8 @@
 package com.techbook.techbook.entities;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public enum NameCategory {
 
     INFORMATICA("informatica",0),
@@ -13,8 +16,4 @@ public enum NameCategory {
     String nameCategory = "";
     int index;
 
-    NameCategory(String nameCategory, int index) {
-        this.nameCategory = nameCategory;
-        this.index = index;
-    }
 }

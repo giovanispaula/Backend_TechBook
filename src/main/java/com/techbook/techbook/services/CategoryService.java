@@ -23,17 +23,17 @@ public class CategoryService {
 
     public void LoadData() {
 
-//        categoriesRepository.save(new Categories("INFORMÁTICA"));
-//        categoriesRepository.save(new Categories("DIREITO"));
-//        categoriesRepository.save(new Categories("FICÇÃO"));
-//        categoriesRepository.save(new Categories("INFANTIL"));
+//        categoryRepository.save(new Category("INFORMÁTICA"));
+//        categoryRepository.save(new Category("DIREITO"));
+//        categoryRepository.save(new Category("FICÇÃO"));
+//        categoryRepository.save(new Category("INFANTIL"));
 //
-//        booksRepository.save(new Books("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(2)));
-//        booksRepository.save(new Books("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(1)));
-//        booksRepository.save(new Books("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(3)));
-//        booksRepository.save(new Books("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(3)));
-//        booksRepository.save(new Books("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(4)));
-//        booksRepository.save(new Books("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoriesRepository.getById(1)));
+//        bookRepository.save(new Book("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(2)));
+//        bookRepository.save(new Book("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(1)));
+//        bookRepository.save(new Book("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(3)));
+//        bookRepository.save(new Book("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(3)));
+//        bookRepository.save(new Book("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(4)));
+//        bookRepository.save(new Book("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(1)));
 
     }
 

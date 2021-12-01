@@ -2,12 +2,12 @@ package com.techbook.techbook.services;
 
 import com.techbook.techbook.entities.Book;
 import com.techbook.techbook.entities.Category;
-import com.techbook.techbook.entities.NameCategory;
 import com.techbook.techbook.repositories.IBookRepository;
 import com.techbook.techbook.repositories.ICategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -28,13 +28,6 @@ public class BookService {
         return bookRepository.findById(id);
     }
 
-    public List<Book> listByCategory(NameCategory nameCategory) {
-        try {
-            Category category = categoryRepository.findAllByNameCategory(nameCategory);
-            return bookRepository.findAllByCategories(category);
-        } catch (RuntimeException e) {
-            throw new RuntimeException("ERRO|!");
-        }
-    }
+}
 
 
