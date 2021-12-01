@@ -1,42 +1,45 @@
 package com.techbook.techbook.controllers;
 
 
-import com.techbook.techbook.entities.Book;
-import com.techbook.techbook.entities.Category;
-import com.techbook.techbook.services.BookService;
-import com.techbook.techbook.services.CategoryService;
+import Backend.entities.Books;
+import Backend.entities.NameCategory;
+import Backend.services.BooksService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
+import java.awt.print.Book;
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
 
 @RestController
 @RequestMapping("/products")
-public class BookController {
+public class BooksController {
+
+    private final BooksService booksService;
 
     @Autowired
-    private BookService bookService;
+    public BooksController(BooksService booksService) {
+        this.booksService = booksService;
+    }
 
-    @Autowired
-    private CategoryService categoryService;
-
+    //exibe todos os livros
     @GetMapping
-    public List<Book> searchAllBooks(){
-        return bookService.searchAll();
+    public ResponseEntity<List<Books>> listBooks() {
+        return ResponseEntity.ok(booksService.listBooks());
     }
 
-    @GetMapping("/products/{id}")
-    public Optional<Book> searchById(@PathVariable Integer id) {
-        return bookService.searchById(id);
+    //exibe livro por ID
+    @GetMapping("/{id}")
+    public ResponseEntity<Books> listId(@PathVariable Integer id) {
+        Books books = booksService.listId(id).orElse(null);
+        return ResponseEntity.ok(books);
     }
 
-    @GetMapping("/products/category/{category}")
-    public List<Book> searchByCategory(@PathVariable("category") Category category){
-        return bookService.searchByCategory(category);
+    //exibe livros por categoria
+    @GetMapping("/categories/{nameCategory}")
+    public List<Books> listByCategory(@PathVariable("nameCategory") String nameCategory) {
+        NameCategory stringParaEnum = NameCategory.valueOf(nameCategory.toUpperCase());
+        return booksService.listByCategory(stringParaEnum);
     }
+
 }
