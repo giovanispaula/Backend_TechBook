@@ -21,17 +21,22 @@ public class Config implements CommandLineRunner {
     @Override
     public void run(String...args) throws Exception {
 
-        categoryRepository.save(new Category("INFORMATICA"));
+        categoryRepository.save(new Category("TECNOLOGIA"));
         categoryRepository.save(new Category("DIREITO"));
         categoryRepository.save(new Category("FICCAO"));
+        categoryRepository.save(new Category("MEDICINA"));
+        categoryRepository.save(new Category("LITERATURABRASILEIRA"));
+        categoryRepository.save(new Category("ROMANCE"));
         categoryRepository.save(new Category("INFANTIL"));
+        categoryRepository.save(new Category("POESIA"));
+        categoryRepository.save(new Category("CIENCIAS"));
 
-        bookRepository.save(new Book("Tecnologia Alienígena", 105.99, "Livro de tecnologia", "http://imagem.com", categoryRepository.getById(1)));
-        bookRepository.save(new Book("DIREITO", 105.99, "Livro de tecnologia", "http://imagem.com", categoryRepository.getById(2)));
-        bookRepository.save(new Book("Ficção", 105.99, "Livro de tecnologia", "http://imagem.com", categoryRepository.getById(3)));
-        bookRepository.save(new Book("Pedro e o Coelho", 105.99, "Livro de tecnologia", "http://imagem.com", categoryRepository.getById(4)));
-        bookRepository.save(new Book("O pequeno principe da tecnologia", 105.99, "Livro de tecnologia", "http://imagem.com", categoryRepository.getById(3)));
 
-    }
+        bookRepository.save(new Book(
+                "Tecnologia Alienígena",
+                105.99, "Livro de tecnologia",
+                "http://imagem.com",
+                categoryRepository.getById(1)));
+
 
 }
