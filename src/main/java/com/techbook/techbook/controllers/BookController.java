@@ -1,42 +1,45 @@
 package com.techbook.techbook.controllers;
 
-
+import com.techbook.techbook.dto.BookDTO;
 import com.techbook.techbook.entities.Book;
-import com.techbook.techbook.entities.Category;
 import com.techbook.techbook.services.BookService;
-import com.techbook.techbook.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/products")
 public class BookController {
 
-    @Autowired
-    private BookService bookService;
+    private final BookService bookService;
 
     @Autowired
-    private CategoryService categoryService;
+    public BookController(BookService bookService) {
+        this.bookService = bookService;
+    }
 
+    //exibe todos os livros
     @GetMapping
-    public List<Book> searchAllBooks(){
-        return bookService.searchAll();
+    public ResponseEntity<List<Book>> listBooks() {
+        return ResponseEntity.ok(bookService.listBooks());
     }
 
-    @GetMapping("/products/{id}")
-    public Optional<Book> searchById(@PathVariable Integer id) {
-        return bookService.searchById(id);
+    //exibe livro por ID
+    @GetMapping("/{id}")
+    public ResponseEntity<Book> listId(@PathVariable Integer id) {
+        Book books = bookService.listId(id).orElse(null);
+        return ResponseEntity.ok(books);
     }
 
-    @GetMapping("/products/category/{category}")
-    public List<Book> searchByCategory(@PathVariable("category") Category category){
-        return bookService.searchByCategory(category);
+    //exibe livros por categoria
+    @GetMapping("/categories/{type}")
+    public ResponseEntity<List<BookDTO>> getByType(@PathVariable String type){
+        System.out.println(type);
+        return ResponseEntity.ok(
+                bookService.getAllByType(type).stream().map(BookDTO::BookToDTO).collect(Collectors.toList())
+        );
     }
 }
