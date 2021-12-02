@@ -1,13 +1,20 @@
 package com.techbook.techbook.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
-@Data
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 @Table
-public class Book {
+public class Book implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,6 +27,14 @@ public class Book {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id", foreignKey = @ForeignKey(name = "fk_category"))
+    @JsonIgnore
     private Category category;
 
+    public Book(String title, Double price, String description, String image, Category category) {
+        this.title = title;
+        this.price = price;
+        this.description = description;
+        this.image = image;
+        this.category = category;
+    }
 }

@@ -21,11 +21,11 @@ public class CategoryService {
         return categoryRepository.findAll();
     }
 
-    public void LoadData() {
-
-//        categoryRepository.save(new Category("INFORMÁTICA"));
+//    public void loadData() {
+//
+//        categoryRepository.save(new Category("INFORMATICA"));
 //        categoryRepository.save(new Category("DIREITO"));
-//        categoryRepository.save(new Category("FICÇÃO"));
+//        categoryRepository.save(new Category("FICCAO"));
 //        categoryRepository.save(new Category("INFANTIL"));
 //
 //        bookRepository.save(new Book("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(2)));
@@ -34,7 +34,8 @@ public class CategoryService {
 //        bookRepository.save(new Book("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(3)));
 //        bookRepository.save(new Book("Tech Mundo", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(4)));
 //        bookRepository.save(new Book("Mil maneiras de fazer justiça", 105.99, "Livro de Tecnologia", "URL", categoryRepository.getById(1)));
+//
+//    }
 
-    }
 
 }
