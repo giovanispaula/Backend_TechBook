@@ -19,6 +19,9 @@ public class Book implements Serializable {
 
     private String title;
     private Double price;
+
+    @Lob
+    @Column
     private String description;
     private String image;
 
