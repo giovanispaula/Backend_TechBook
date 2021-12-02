@@ -1,10 +1,7 @@
 package com.techbook.techbook.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -36,5 +33,13 @@ public class Book implements Serializable {
         this.description = description;
         this.image = image;
         this.category = category;
+    }
+
+    public Book(Integer id, String title, Double price, String description, String image) {
+        this.id = id;
+        this.title = title;
+        this.price = price;
+        this.description = description;
+        this.image = image;
     }
 }
