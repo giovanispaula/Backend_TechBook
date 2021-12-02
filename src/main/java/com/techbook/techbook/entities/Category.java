@@ -22,12 +22,15 @@ public class Category implements Serializable {
     private Integer id;
     private String name;
 
+    private String longName;
+
     @OneToMany(mappedBy = "category")
     @JsonIgnore
     private Set<Book> books = new HashSet<>();
 
-    public Category(String name) {
+    public Category(String name, String longName) {
         this.name = name;
+        this.longName = longName;
     }
 }
 
