@@ -124,506 +124,514 @@ public class Config implements CommandLineRunner {
 
         // - Ficção (03)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A Máquina do Tempo: Uma Invenção",
+                22.99,
+                "Publicado em 1895, A Máquina do Tempo é considerado um dos primeiros romances a tratar do conceito de viagem no tempo. O personagem central, um cientista apresentado na trama apenas como o Viajante do Tempo, constrói uma máquina capaz de viajar pela quarta dimensão. Ao testá-la, é transportado para o ano de 802.701, em um mundo povoado pelos pacíficos elóis. Mas os elóis não são os únicos habitantes dessa nova Terra, e o Viajante do Tempo terá de enfrentar os morlocks, seres que vivem nos subterrâneos e guardam um importante segredo sobre o destino da humanidade. A Máquina do Tempo foi o primeiro romance publicado por H. G. Wells. Seu sucesso instantâneo na época abriu as portas para todo um novo gênero literário que até hoje agrada a leitores de todas as idades.",
+                "https://images-na.ssl-images-amazon.com/images/I/71cL9wegDQL.jpg",
                 categoryRepository.getById(3)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Trono destruído: Coletânea definitiva da série A Rainha Vermelha",
+                33.53,
+                "Nesta coletânea, que encerra a série A Rainha Vermelha, você vai descobrir mais sobre o universo avassalador da saga que já vendeu mais de meio milhão de exemplares no Brasil. Trono destruído é uma coletânea essencial para todos os leitores da série best-seller de Victoria Aveyard que ficaram com vontade de passar mais tempo com os personagens depois do fim de Tempestade de guerra. Com design especial, o livro traz os dois contos já publicados (“Canção da rainha” e “Cicatrizes de aço”), além de quatro histórias inéditas que darão aos leitores mais um vislumbre de seus personagens favoritos e a chance de conhecer caras novas. O volume ainda conta com mapas exclusivos, bandeiras, registros sobre a história de Norta e muito mais!",
+                "https://images-na.ssl-images-amazon.com/images/I/81nwkac3N2L.jpg",
                 categoryRepository.getById(3)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "As Crônicas de Nárnia. Brochura",
+                26.70,
+                "Viagens ao fim do mundo, criaturas fantásticas e batalhas épicas entre o bem e o mal - o que mais um leitor poderia querer de um livro? O livro que tem tudo isso é 'O leão, a feiticeira e o guarda-roupa', escrito em 1949 por Clive Staples Lewis. MasLewis não parou por aí. Seis outros livros vieram depois e, juntos, ficaram conhecidos como 'As crônicas de Nárnia'. Nos últimos cinqüenta anos, 'As crônicas de Nárnia' transcenderam o gênero da fantasia para se tornar parte do cânone da literaturaclássica. Cada um dos sete livros é uma obra-prima, atraindo o leitor para um mundo em que a magia encontra a realidade, e o resultado é um mundo ficcional que tem fascinado gerações. Esta edição apresenta todas as sete crônicas integralmente, num único volume. Os livros são apresentados de acordo com a ordem de preferência de Lewis, cada capítulo com uma ilustração do artista original, Pauline Baynes. Enganosamente simples e direta, 'As crônicas de Nárnia' continuam cativando os leitores com aventuras, personagens e fatos que falam a pessoas de todas as idades.",
+                "https://images-na.ssl-images-amazon.com/images/I/71yJLhQekBL.jpg",
                 categoryRepository.getById(3)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "As crônicas de Nárnia - O sobrinho do mago: 1",
+                28.49,
+                "A aventura começa quando Digory e Polly vão parar no gabinete secreto do excêntrico tio André. Ludibriada por ele, Polly toca o anel mágico e desaparece. Digory, aterrorizado, decide partir imediatamente em busca da amiga no Outro Mundo. Lá ele encontra Polly e, juntos, ouvem Aslam cantar sua canção ao criar o mundo encantado de Nárnia, repleto de sol, árvores, flores, relva e animais. ",
+                "https://images-na.ssl-images-amazon.com/images/I/711WTt57f7L.jpg",
                 categoryRepository.getById(3)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Ladrão de Raios - Volume 1. Série Percy Jackson e os Olimpianos",
+                32.03,
+                "Os cinco livros da série que se tornou fenômeno mundial, em edição limitada e com design exclusivo: as cinco lombadas dos livros compõem, juntas, uma ilustração especial de John Rocco.\n" +
+                        "Em O ladrão de raios, Percy Jackson, o menino que aos doze anos descobre que é um semideus, filho de Poseidon, precisa impedir uma guerra entre os deuses que destruiria a civilização ocidental; em O Mar de Monstros, ele e os amigos se envolvem em uma perigosa aventura para defender o acampamento dos semideuses; em A maldição do titã, Percy descobre que o Senhor dos Titãs despertou e está disposto a destruir a humanidade; em A batalha do Labirinto, o semideus vai combater o perigoso titã no temido Labirinto de Dédalo; e em O último olimpiano, Percy tem que lidar não só com o exército de Cronos, mas também com a chegada de seu décimo sexto aniversário — e, assim, com a profecia que determinará seu destino.",
+                "https://images-na.ssl-images-amazon.com/images/I/91D8ZsToatL.jpg",
                 categoryRepository.getById(3)));
 
         // - Medicina (04)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Medicina Dos Horrores: A História De Joseph Lister, O Homem Que Revolucionou O Apavorante Mundo Das Cirurgias Do Século XIX",
+                31.87,
+                "Em Medicina dos horrores, a historiadora Lindsey Fitzharris narra como era o chocante mundo da cirurgia do século XIX, que estava às vésperas de uma profunda transformação. A autora evoca os primeiros anfiteatros de operações — lugares abafados onde os procedimentos eram feitos diante de plateias lotadas — e cirurgiões pioneiros, cujo ofício era saudado não pela precisão, mas pela velocidade e pela força bruta, uma vez que não havia anestesia. Não à toa, os mais célebres cirurgiões da época eram capazes de amputar uma perna em menos de trinta segundos. Trabalhando sem luvas e sem qualquer cuidado com a higiene básica, esses profissionais, alheios à existência de micro-organismos, ficavam perplexos com as infecções pós-operatórias, o que mantinha as taxas de mortalidade implacavelmente elevadas. É nesse cenário, em que se considerava mais provável um homem sobreviver à guerra do que ao hospital, que emerge a figura de Joseph Lister, um jovem médico que desvendaria esse enigma mortal e mudaria o curso da história. Concentrando-se no tumultuado período entre 1850 e 1875, a autora nos apresenta Lister e seus contemporâneos e nos conduz por imundas escolas de medicina, os sórdidos hospitais onde eles aprimoravam sua arte, as “casas da morte” onde estudavam anatomia e os cemitérios, que eles volta e meia invadiam para roubar cadáveres. Chocante e revelador,Medicina dos horrores celebra o triunfo de um visionário, cuja busca para atribuir um caráter científico à medicina terminou por salvar milhões de vidas.",
+                "https://images-na.ssl-images-amazon.com/images/I/61rNuLzZ54L.jpg",
                 categoryRepository.getById(4)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Medicina de Emergência: Abordagem Prática",
+                218.53,
+                "Totalmente atualizado de acordo com a mais nova literatura científica. Capítulo abordando a grande pandemia de COVID-19 causada pelo coronavírus SARS-COV-2. Explicações claras e didáticas sobre a fisiopatologia das doenças. Algoritmos de decisão clínica. Procedimentos descritos detalhadamente. Discussão da conduta levando em conta riscos e benefícios.",
+                "https://images-na.ssl-images-amazon.com/images/I/71l93e2RGaL.jpg",
                 categoryRepository.getById(4)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Medicina do amanhã: Como a genética, o estilo de vida e a tecnologia juntos podem auxiliar na sua qualidade de vida.",
+                24.90,
+                "“A divulgação do conhecimento é fundamental para construirmos um novo modelo de criação da saúde.” - Pedro Schestatsky. A SAÚDE DO FUTURO COMEÇA MUDANDO HÁBITOS DE HOJE. Em um mundo mutante é necessário se reinventar todos os dias. Essa verdade vale para a nossa vida profissional e pessoal, mas e quando falamos sobre a nossa saúde? Estamos nos adaptando ou apenas vivendo as regras da Medicina tradicional ditadas há séculos por uma realidade distante da situação atual e na qual as mudanças aconteciam lentamente? Somos reféns de remédios que geram efeitos colaterais que exigem outros remédios e nos prendem nesse ciclo vicioso? Terceirizamos nossa saúde nas mãos de médicos e planos de saúde? Todas essas perguntas nos levam a uma resposta inquestionável: no momento atual, nossa relação com a saúde e com os medicamentos deveria ser diferente. A Medicina do amanhã é, portanto, o caminho para o autoconhecimento integral e para colocar na prática todas as informações e tecnologias disponíveis para melhorar nossa qualidade de vida e longevidade. Com o conhecimento adquirido em mais de vinte anos de experiência como médico e professor, Pedro Schestatsky mostrará como é possível assumir o protagonismo da sua saúde em direção a uma vida mais saudável e longeva. Aqui você vai: Aprender como utilizar a tecnologia a seu favor quando o assunto é saúde; Entender como uma relação diferente com seus médicos o ajudará a conquistar maior autonomia sobre sua vida; Descobrir que a criação da saúde é tão ou mais importante do que o tratamento da doença, e que a ausência de doenças é um “efeito colateral” desse novo foco; Aplicar os 5Ps (predição, prevenção, personalização, proatividade e parceria) no seu dia a dia e mudar a sua relação com a Medicina; Resignificar o conceito “Medicina” e entender que ele não precisa ser sinônimo de algo reativo, que serve apenas àqueles que enfrentam problemas de saúde.",
+                "https://images-na.ssl-images-amazon.com/images/I/81IS7glu60L.jpg",
                 categoryRepository.getById(4)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Anatomia",
+                16.79,
+                "Resumo completo de Anatomia com mais de 1.400 identificações anatômicas. Os ossos do esqueleto. A coluna vertebral, a estrutura de vértebras e nervos. Os ossos da cabeça. O sistema linfático. O sistema nervoso. O sistema respiratório. O sistema endócrino. O sistema digestório. O sistema urinário. Os sistemas de reprodução masculino e feminino. O sistema circulatório e o coração. O sistema muscular. O cérebro. O quadril. O nervo ciático. Os ligamentos do joelho. A cabeça. A pele. Anatomia da mão, dos dedos e do pé.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1vPTuUDvGL.jpg",
                 categoryRepository.getById(4)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Atlas ilustrado do corpo humano",
+                2.00,
+                "Neste livro, você vai aprender o mecanismo do corpo humano e da estrutura do esqueleto aos milhões de células que mantêm o corpo vivo.",
+                "https://images-na.ssl-images-amazon.com/images/I/51bFBB4GijL.jpg",
                 categoryRepository.getById(4)));
 
         // - Literatura Brasileira (05)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Dom Casmurro",
+                12.99,
+                "Em Dom Casmurro, o narrador Bento Santiago retoma a infância que passou na Rua de Matacavalos e conta a história do amor e das desventuras que viveu com Capitu, uma das personagens mais enigmáticas e intrigantes da literatura brasileira. Nas páginas deste romance, encontra-se a versão de um homem perturbado pelo ciúme, que revela aos poucos sua psicologia complexa e enreda o leitor em sua narrativa ambígua acerca do acontecimento ou não do adultério da mulher com olhos de ressaca, uma das maiores polêmicas da literatura brasileira.",
+                "https://images-na.ssl-images-amazon.com/images/I/613Ywe4F3vL.jpg",
                 categoryRepository.getById(5)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "História da Literatura Brasileira Vol. I: Das Origens ao Romantismo: Volume 1",
+                55.08,
+                "Com o texto inteiramente revisto, essa edição do clássico História da Literatura Brasileira, com um novo projeto gráfico e texto completo em três volumes, nos traz em seus capítulos as origens, o Barroco, o Arcadismo e o Romantismo.",
+                "https://images-na.ssl-images-amazon.com/images/I/518hT+FvcnL.jpg",
                 categoryRepository.getById(5)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "História Concisa da Literatura Brasileira",
+                40.85,
+                "Totalmente revista e atualizada pelo autor – professor titular de Literatura Brasileira na USP -, essa obra consagrada aos estudantes universitários, professores e pós-graduados, é tida como a melhor do gênero. Está divida em oito partes: Condição Colonial, Barroco, Arcádia e Ilustração, Romantismo, Realismo, Pré-Modernismo, Modernismo e Tendências Contemporâneas e História da Literatura Brasileira.",
+                "https://images-na.ssl-images-amazon.com/images/I/61q5nLBmqXL.jpg",
                 categoryRepository.getById(5)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Imbecil Coletivo: Atualidades Inculturais Brasileiras",
+                59.85,
+                "Quem é o imbecil coletivo?Ele é duplo: nasce do improvável matrimônio do intelectual pernóstico com a ralé enfurecida. Ele é um fanático hidrófobo com um toque elegante de ceticismo relativista. É o corpo de Bakunin com a cabeça de Anatole France. Entre a verdade e a falsidade, ele tem a imparcialidade da indiferença. Mas, como um verdadeiro sábio chinês que age não agindo, ele faz de sua omissão o motor da história, cedendo o passo à iniciativa das massas e deixando que o milagre da praxis transmute as contradições teoréticas em violência física, que é, no fim das contas, a única resposta decisiva aos olhos do cético.Vinte e cinco anos depois do seu lançamento, eis a décima edição d’O imbecil coletivo, pedra de escândalo da intelligentzia brasileira de ontem, de hoje e de sempre. A edição resgata o texto integral do livro, sem os cortes que ele sofrera em suas últimas edições, e o apresenta com novo prefácio do crítico literário Rodrigo Gurgel.",
+                "https://images-na.ssl-images-amazon.com/images/I/71K1XCxTKLL.jpg",
                 categoryRepository.getById(5)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Tarde",
+                10.90,
+                "Os poemas de Tarde, publicados postumamente em 1919, estão reunidos sob um título que deixa transparecer o tom crepuscular predominante nas composições. O livro revela um sujeito às voltas com a antevelhice, nostálgico e mais reflexivo do que em sua produção anterior. Fruto da maturidade do autor, tornou-se o livro de sonetos mais conhecido do autor.",
+                "https://images-na.ssl-images-amazon.com/images/I/71ZQyInMj0L.jpg",
                 categoryRepository.getById(5)));
 
         // - Romance (06)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O acordo",
+                29.90,
+                "Hannah Wells finalmente encontrou alguém que a interessasse. Embora seja autoconfiante em vários outros aspectos da vida, carrega nas costas uma bagagem e tanto quando o assunto é sexo e sedução. Não vai ter jeito: ela vai ter que sair da zona de conforto… Mesmo que isso signifique dar aulas particulares para o infantil, irritante e convencido capitão do time de hóquei, em troca de um encontro de mentirinha. Tudo o que Garrett Graham quer é se formar para poder jogar hóquei profissional. Mas suas notas cada vez mais baixas estão ameaçando arruinar tudo aquilo pelo que tanto se dedicou. Se ajudar uma garota linda e sarcástica a fazer ciúmes em outro cara puder garantir sua vaga no time, ele topa. Mas o que era apenas uma troca de favores entre dois opostos acaba se tornando uma amizade inesperada. Até que um beijo faz que Hannah e Garret precisem repensar os termos de seu acordo.",
+                "https://images-na.ssl-images-amazon.com/images/I/91oyypSxfeS.jpg",
                 categoryRepository.getById(6)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Mais que amigos",
+                19.47,
+                "Será que vale a pena arriscar uma grande amizade em troca de um amor inesquecível? Aos vinte e dois anos, a jovem Parker Blanton leva a vida que sempre sonhou. Tem um namorado inteligente e responsável, um emprego promissor e a companhia de seu melhor amigo, Ben Olsen, com quem divide um lindo apartamento. Parker e Ben são tão grudados que muita gente duvida que eles morem sob o mesmo teto sem nunca ter vivido um caso, mas eles não se importam com o que as pessoas pensam. Sabem que não foram feitos um para o outro ― pelo menos não para se envolver. Por isso, quando um acontecimento inesperado faz com que Parker se veja sem namorado e com o coração partido, ela sabe que pode contar com Ben para ajudá-la a sacudir a poeira e partir para outra. Afinal, ninguém seria mais ideal do que seu melhor amigo para lhe mostrar os prazeres da vida de solteiro… certo? Mais que amigos é uma comédia romântica irresistível! CONTEÚDO ADULTO ",
+                "https://images-na.ssl-images-amazon.com/images/I/91lxxIREpeL.jpg",
                 categoryRepository.getById(6)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Antes que Você Diga Sim",
+                50.34,
+                "Abby Porter tem o emprego dos sonhos e o noivo perfeito. Mas quando se vê sobrecarregada com os preparativos do casamento, seu noivo contrata Jordan Cohen, uma dama de honra profissional para ajudá-la. E é aí que seu mundo vira de pernas para o ar. A relação entre ela e Jordan começa a mudar... o que deveria ser amizade, se torna algo mais. Agora, Abby vai ter que decidir se está realmente pronta para dizer sim. Com personagens cativantes e carismáticos, e uma história doce e divertida sobre amor e escolhas, a autora bestseller Clare Lydon conquistou leitores no mundo todo.",
+                "https://images-na.ssl-images-amazon.com/images/I/719rDQPFGRL.jpg",
                 categoryRepository.getById(6)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Mais Escuro. Cinquenta Tons Mais Escuros Pelos Olhos de Christian - Volume 2",
+                19.90,
+                "E L James revisita Cinquenta tons com um mergulho mais profundo e sombrio na história de amor que envolveu milhões de leitores em todo o mundo. O relacionamento quente e sensual de Anastasia Steele e Christian Grey chega ao fim com muitas acusações e sofrimento, mas Grey não consegue tirar Ana da cabeça. Determinado a reconquistá-la, ele tenta suprimir seus desejos mais obscuros e sua necessidade de controle absoluto, e disposto a amar Ana nos termos estabelecidos por ela. Mas os horrores de sua infância ainda o assombram, e, como se não bastasse, o chefe manipulador de Ana, Jack Hyde, claramente a quer. Será que o terapeuta e confidente de Grey, Dr. Flynn, poderá ajudá-lo a enfrentar seus demônios? Ou será que a possessividade de Elena, sua sedutora, e a devoção perturbada de Leila, sua ex-submissa, vão arrastá-lo para o passado? E se Christian vai reconquistar Ana, será que um homem tão sombrio e cheio de problemas espera mesmo mantê-la?",
+                "https://images-na.ssl-images-amazon.com/images/I/61Qc9fUlZiL.jpg",
                 categoryRepository.getById(6)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Box da Trilogia Cinquenta Tons de Cinza",
+                29.90,
+                "Fenômeno editorial sem precedentes, a Trilogia Cinquenta tons de cinza conquistou uma legião de fãs ao redor do planeta, ultrapassando a marca inédita de 40 milhões de exemplares vendidos em todo o mundo. No Brasil, mais de 900 mil livros foram comercializados em 80 dias, uma média de 468 exemplares por hora. Agora, os três volumes da série que marca a estreia literária da inglesa E L James estão reunidos em um box especial, com edição limitada e design exclusivo: Cinquenta tons de cinza, que narra o início da ardente história de amor entre a recatada estudante Anastasia Steele e o enigmático empresário Christian Grey; Cinquenta tons de liberdade, em que Ana e Christian lutam para superar as diferenças e os problemas do passado e enfim ficar juntos; e Cinquenta tons de liberdade, que traz o tão aguardado desfecho da Trilogia que dominou o mundo.",
+                "https://images-na.ssl-images-amazon.com/images/I/71yt44c2h-L.jpg",
+                categoryRepository.getById(6)));
+
+        bookRepository.save(new Book(
+                "Cinquenta Tons Mais Escuros: (Série Cinquenta tons de cinza vol. 2)",
+                3.40,
+                "Assustada com os segredos obscuros do belo e atormentado Christian Grey, Ana Steele põe um ponto final em seu relacionamento com o jovem empresário e concentra-se em sua nova carreira, numa editora de livros. Mas o desejo por Grey domina cada pensamento de Ana e, quando ele propõe um novo acordo, ela não consegue resistir. Em pouco tempo, Ana descobre mais sobre o angustiante passado de seu amargurado e dominador parceiro do que jamais imaginou ser possível. Enquanto Christian tenta se livrar de seus demônios interiores, Ana se vê diante da decisão mais importante da sua vida.",
+                "https://images-na.ssl-images-amazon.com/images/I/711oa-je6ZL.jpg",
                 categoryRepository.getById(6)));
 
         // - Infantil (07)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "100 páginas para colorir – Disney – Meninas",
+                10.09,
+                "Literatura infantil de qualidade; um livro produzido e idealizado especialmente para estimular o prazer da leitura; edição atualizada em formato brochura.",
+                "https://images-na.ssl-images-amazon.com/images/I/91P7CxHq3cL.jpg",
                 categoryRepository.getById(7)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O pequeno príncipe",
+                10.74,
+                "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
+                "https://images-na.ssl-images-amazon.com/images/I/81MscdgdwLL.jpg",
                 categoryRepository.getById(7)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Menino Maluquinho",
+                22.90,
+                "Um menininho traquinas, diziam. Tinha macaquinhos no sótão, deitava e rolava, fazendo confusão. Um anjinho, um saci? Alegria da casa, liderava a garotada. Namorador, fazia versinhos, compunha canções, inventava brincadeiras. Era sabido, um amigão. “Menino Maluquinho”, diziam sorrindo as pessoas. Não era, não! Só mais tarde descobriram que tinha sido um garotinho muito amado e, por isso mesmo, muito feliz.",
+                "https://images-na.ssl-images-amazon.com/images/I/911o1h5gIzL.jpg",
                 categoryRepository.getById(7)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Show da Luna - Atlas - Viajando pelo mundo",
+                4.00,
+                "Neste livro, nós iremos juntos explorar alguns lugares do mundo. Embarque nessa aventura junto conosco e divirta-se. Essa será a melhor experiência de todas!",
+                "https://images-na.ssl-images-amazon.com/images/I/618OqgfvtyL.jpg",
                 categoryRepository.getById(7)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Disney. Meninos - Coleção 100 Páginas Para Colorir ",
+                9.49,
+                "Literatura infantil de qualidade; um livro produzido e idealizado especialmente para estimular o prazer da leitura; edição atualizada em formato brochura.",
+                "https://images-na.ssl-images-amazon.com/images/I/91rZNdZ8IFL.jpg",
                 categoryRepository.getById(7)));
 
         // - Poesia (08)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Meu corpo virou poesia",
+                27.87,
+                "Em 2017, Bruna Vieira fez as malas, deixou a vida no Brasil de lado e foi escrever uma nova história em outro país, vestida de coragem e guiada por um sentimento que sempre foi sua maior prioridade: o amor. Com o tempo, porém, os dias foram ficando cada vez mais longos e solitários. Era como se naquele lugar o amor tivesse perdido o equilíbrio e se tornado uma obrigação. Foi bem perto do fim e de jeito mais frio que ela finalmente se deu conta: é impossível ser “nós” sozinha. Formado por quatro partes ― cabeça, garganta, pulmão e ventre ―, este livro é um mapa. Um mapa que leva Bruna de volta à escrita e a si mesma. São relatos reais, repletos de lembranças, aprendizados e cicatrizes, que agora deixam o corpo da autora para encontrar o seu, em forma de poesia. Ao tocar em temas como autoestima, amizade feminina e relacionamentos (com o outro e sobretudo consigo mesma), Bruna olha para dentro e nos convida a percorrer nestes versos nossa própria viagem de autodescoberta.",
+                "https://images-na.ssl-images-amazon.com/images/I/91l6cuDfKvS.jpg",
                 categoryRepository.getById(8)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Poesia completa",
+                79.91,
+                "Um dos maiores poetas de língua portuguesa do século XX, João Cabral de Melo Neto ficou conhecido pelo estilo conciso, rigor formal e apurada crítica social ― numa comparação feita por ele mesmo, o poeta seria como um escultor, que incessantemente corta a pedra até que a escultura surja de dentro dela. Sua produção foi reunida nesta Poesia completa, que traz seus primeiros poemas e depois seu primeiro livro, Pedra do sono, lançado no início dos anos 1940, passando por textos que já se tornaram clássicos da nossa literatura como O cão sem plumas, Morte e vida Severina, A educação pela pedra, Museu de tudo, Auto do frade, até Sevilha andando, seu derradeiro livro. O autor faleceu em 1999, deixando uma obra de força descomunal. Para comemorar seu centenário, esta Poesia completa traz ainda textos póstumos, dispersos e inéditos, organizados por Antonio Carlos Secchin com a colaboração de Edneia Ribeiro.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1tt20nqlRL.jpg",
                 categoryRepository.getById(8)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Todas as coisas que eu te escreveria se pudesse - Textos Cruéis Demais",
+                29.87,
+                "O autor nacional de ficção mais lido em 2020, Igor Pires lança o quarto livro da série Textos cruéis demais para serem lidos rapidamente. Em Todas as coisas que eu te escreveria se pudesse, Igor fala sobre amor, amar e deixar ir, ser intenso e abraçar a sua intensidade. Sobre dizer e sentir tudo sem gaguejar. Sobre enfrentar a dor e aceitar que a cura é um processo contínuo, imprevisível, não linear. Escrita durante a pandemia, a obra é uma coleção de textos poéticos sobre todas as impressões que ficam quando alguém vai embora – ainda que esse alguém seja você mesmo. Além de toda a poesia e sensibilidade características do autor, o livro traz as coloridas ilustrações – que flertam com o surreal – de Jônatas Moreira.",
+                "https://images-na.ssl-images-amazon.com/images/I/71UY2qbj+fL.jpg",
                 categoryRepository.getById(8)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Poesias: 119",
+                20.00,
+                "A perfeição formal, o culto à beleza e o preciosismo concederam a Olavo Bilac o título de “príncipe dos poetas”. Poucos escritores manifestaram tal propriedade ao pintar retratos com as palavras. Em cada verso e cada rima, a poesia revela a imponderável beleza das coisas – da arte, do amor, da natureza, da mulher. Sua poesia transcende as limitações formais e o frio objetivismo do Parnasianismo, conforme flerta com a estética romântica e sua sensualidade, brinca com a sonoridade das palavras e dialoga com o passado histórico do Brasil. A presente edição reúne os livros Panóplias, Via Láctea, Sarças de fogo, Alma inquieta, As viagens, O caçador de esmeraldas e Tarde. Traz ainda a seleção de algumas das principais crônicas de Bilac, que revelam um lado pouco conhecido de um dos poetas mais importantes e controversos de nossa literatura.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1qIxAi4XZS.jpg",
                 categoryRepository.getById(8)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Poesias: 2",
+                11.78,
+                "Esta antologia organizada por Sueli Barros Cassal contém poemas escritos pelo poeta português Fernando Pessoa em suas diversas fases e também por seus heterônimos.",
+                "https://images-na.ssl-images-amazon.com/images/I/61nonJamxkL.jpg",
                 categoryRepository.getById(8)));
 
         // - Suspense (09)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O inocente: Livro que está na Netflix",
+                23.87,
+                "Aos 20 anos, Matt Hunter vive uma noite de horror que ficará para sempre gravada em sua memória. Durante uma festa, ao tentar apartar uma briga, ele mata uma pessoa acidentalmente e é considerado culpado pelo júri. Agora, nove anos depois de ser libertado da prisão, tudo parece ter entrado nos eixos: Olivia, sua esposa, está grávida e os dois estão prestes a comprar uma casa na cidade natal dele. Mas a ilusão acaba quando Matt recebe um vídeo chocante e inexplicável que começa a despedaçar sua vida pela segunda vez. Para piorar, ele passa a ser seguido por um homem misterioso. Em pouco tempo, o perseguidor é encontrado morto e uma freira querida por todos também é assassinada. Quando todas as pistas apontam para Matt, ele e Olivia são forçados a desabar a lei numa tentativa desesperada de salvar seu futuro juntos.",
+                "https://images-na.ssl-images-amazon.com/images/I/61O-+YewyOL.jpg",
                 categoryRepository.getById(9)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A paciente silenciosa",
+                26.53,
+                "Só ela sabe o que aconteceu.Só ele pode fazê-la falar. A paciente silenciosa é um daqueles livros que não saem da cabeça do leitor, quer ele queira, quer não. Alicia Berenson tinha uma vida perfeita. Ela era uma pintora famosa casada com um fotógrafo bem-sucedido e morava numa área nobre de Londres que dá para o parque de Hampstead Heath. Certa noite, Gabriel, seu marido, voltou tarde para casa depois de um ensaio para a Vogue, e de repente a vida de Alicia mudou completamente...Alicia tinha 33 anos quando deu cinco tiros no rosto do marido, e ela nunca mais disse uma palavra.A recusa de Alicia a falar ou a dar qualquer explicação transforma essa tragédia doméstica em algo muito maior - um mistério que atrai a atenção do público e aumenta ainda mais a fama da pintora. Entretanto, enquanto seus quadros passam a ser mais valorizados que nunca, ela é levada para o Grove, um hospital psiquiátrico judiciário na zona norte de Londres.Enquanto isso, Theo Faber é um psicoterapeuta forense que espera há muito tempo por uma oportunidade de trabalhar com Alicia. Ele tem certeza de que é a pessoa certa para lidar com o caso. No entanto, sua determinação para fazê-la falar e desvendar o mistério de por que ela atirou no marido o arrasta para um caminho tortuoso que sugere que as raízes do silêncio de Alicia são muito mais profundas do que ele jamais poderia imaginar.Porém, se ela falar, ele será capaz de ouvir a verdade?A paciente silenciosa é thrillers psicológico impactante, com um mistério envolvente com um final eletrizante que faz o leitor questionar tudo que acabou de ler.Best-seller do The New York Times. “Uma mistura de suspense hitchcockiano, trama de Agatha Christie e tragédia grega” - Entertainment Weekly“Um thriller psicológico provocativo e com uma trama intrincada que coloca Alex Michaelides entre os grandes autores do gênero.” - Publishers Weekly",
+                "https://images-na.ssl-images-amazon.com/images/I/91R8S52UP6L.jpg",
                 categoryRepository.getById(9)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Deixada Para Trás",
+                24.90,
+                "Duas colegas são raptadas. Megan foge e, um ano depois, escreve um livro que se torna um sucesso. Um detalhe inconveniente: Nicole continua desaparecida. Nicole e Megan são alunas do último ano da high school de Emerson Bay, uma cidadezinha na Carolina do Norte. Certa noite de verão, elas desaparecem de uma festa à beira do lago. A polícia realiza uma busca intensa, mas não encontra nenhuma pista. Quando já haviam perdido as esperanças de encontrá-las com vida, Megan aparece, milagrosamente, ao conseguir escapar do cativeiro escondido nas profundezas da mata. Um ano depois, Megan lança um livro contando o seu martírio naquelas duas semanas, e, imediatamente, ele se torna um best-seller e a converte de uma heroína local em celebridade nacional. Trata-se de um relato triunfante e inspirador, exceto por um detalhe inconveniente: Nicole continua desaparecida. Livia, irmã mais velha de Nicole, aluna de patologia forense, espera que um dia, em breve, o corpo de Nicole seja encontrado, e caberá a alguém como ela analisar a evidência e determinar finalmente a causa da morte de sua irmã. Em vez disso, a primeira pista do desaparecimento de Nicole surge de outro corpo que chega ao necrotério onde ela trabalha. É de alguém ligado ao passado de Nicole. Então, Livia entra em contato com Megan para contar a descoberta, e pedir mais detalhes da noite em que as duas foram sequestradas. Como outras garotas também desapareceram, Livia começa a acreditar que existe uma forte ligação entre todos aqueles casos. No entanto, Megan sabe mais do que revelou em seu livro. Lampejos de memória surgem, apontando para algo mais sombrio e monstruoso do que o descrito em suas arrepiantes memórias. Quanto mais ela e Livia se aprofundam, mais se dão conta de que, às vezes, o terror verdadeiro está em encontrar exatamente o que estávamos procurando.",
+                "https://images-na.ssl-images-amazon.com/images/I/81wNyetQRTL.jpg",
                 categoryRepository.getById(9)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A corrente",
+                22.20,
+                "Vítima. Sobrevivente. Sequestrador. Criminoso. Você vai se tornar cada um deles.O dia começa como qualquer outro. Rachel Klein deixa no ponto de ônibus a filha de 13 anos, Kylie, e segue sua rotina. Mas o telefonema de um número desconhecido muda tudo. Do outro lado, uma voz de mulher avisa que Kylie está no banco de trás de seu carro, e que Rachel só verá a filha de novo se pagar um resgate - e sequestrar outra criança.Assim como Rachel, a mulher no telefone é mãe, também teve o filho sequestrado e, se Rachel não fizer exatamente o que ela manda, o menino morre, e Kylie também. Agora Rachel faz parte da Corrente, um esquema aterrorizante que transforma os pais das vítimas em criminosos - e, ao mesmo tempo, deixa alguém muito rico. A Corrente é implacável, apavorante e totalmente anônima. As regras são simples: entregar o valor exigido, escolher outra vítima e cometer um ato abominável do qual, apenas vinte e quatro horas antes, você se julgaria incapaz.Rachel é uma mulher comum, mas, nos dias que se seguem, será levada a extremos que ultrapassam todos os limites do aceitável. Ela será obrigada a fazer escolhas morais inconcebíveis e executar ordens terríveis. Os cérebros por trás da Corrente sabem que os pais farão qualquer coisa pelos filhos. Mas o que eles não sabem é que talvez tenham se deparado com uma oponente à altura. Rachel é inteligente, determinada e... uma sobrevivente. 'Esta história é incrivelmente original. Você não vai parar de pensar nela por muito tempo.' - Stephen King 'A corrente é diabólico, inquietante e dá novo significado à palavra 'implacável'. Adrian McKinty entrou para minha lista de autores de suspense obrigatórios. Escreve com confiança, emoção e muito estilo. Ele é o cara.' - Dennis Lehane",
+                "https://images-na.ssl-images-amazon.com/images/I/71Ae2-3zX9L.jpg",
                 categoryRepository.getById(9)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Stalker: Quando a inveja se torna uma obsessão",
+                19.50,
+                "Ela não quer ser igual a você. Ela quer a sua vida. Quando Fig Coxbury compra uma casa na West Barrett Street, sua maior motivação não é o amor pelo bairro, ou ter se apaixonado pelo imóvel. É para ficar mais próxima de tudo o que ela deseja: o marido, a criança e a vida que pertence a outra pessoa. Com os olhos fixos na família Avery, Fig se insere gradualmente na rotina de Jolene, Darius e sua filha, Mercy. E não para por aí... Fig invade a privacidade familiar, e logo acredita que pode assumir, definitivamente, o lugar de Jolene. Ela persegue. Copia. Manipula. Cobiça. Usa táticas e cenas a cada momento. Toda stalker tem um objetivo. Para Fig, nada deve ficar em seu caminho.",
+                "https://images-na.ssl-images-amazon.com/images/I/61cSdiJhIhL.jpg",
                 categoryRepository.getById(9)));
 
         // - Fantasia (10)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Labirinto Do Fauno",
+                32.69,
+                "Quando estreou nos cinemas, O Labirinto do Fauno encantou público e crítica com sua história que mesclava sonho e realidade, trazendo para o universo da fantasia o cruel cotidiano da Espanha fascista de Franco. Mais de dez anos depois, a produção permanece conquistando fãs e mostrando que boas histórias são atemporais. Nesta edição mais do que especial, o escritor, diretor e roteirista mexicano Guillermo del Toro — a mente por trás do filme e um dos artistas mais inventivos dos últimos tempos — se une a Cornelia Funke, premiada escritora de contos de fadas modernos e autora da trilogia Mundo de Tinta, para narrar a jornada de uma menina pelo Reino dos Homens e pelo Reino Subterrâneo. Nesta edição mais do que especial, o escritor, diretor e roteirista mexicano Guillermo del Toro — a mente por trás do filme e um dos artistas mais inventivos dos últimos tempos — se une a Cornelia Funke, premiada escritora de contos de fadas modernos e autora da trilogia Mundo de Tinta, para narrar a jornada de uma menina pelo Reino dos Homens e pelo Reino Subterrâneo. Mas o que eles não sabem é que a floresta que tanto odeiam também abriga criaturas mágicas e poderosas, habitantes de um reino subterrâneo repleto de encantos e horrores, súditos em busca de sua princesa há muito perdida. Uma princesa que, segundo os sussurros das árvores, finalmente retornou ao lar. ",
+                "https://images-na.ssl-images-amazon.com/images/I/71nygThi5FL.jpg",
                 categoryRepository.getById(10)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A traição de Camelot (As novas lendas de Camelot, v.2)",
+                40.71,
+                "Em Camelot, tudo parece em ordem: o Rei Arthur está formando alianças e expandindo a influência do reino, com a Rainha Guinevere ao seu lado. Todas as noites, no entanto, sonhos sombrios e um poder desconhecido atormentam a jovem. Guinevere pode ter aceitado seu novo papel, porém ainda sente que não encontrou seu lugar. Conforme ela se aproxima das pessoas ao redor, vai se percebendo vazia – Brangien e seu amor por Isolda; Lancelote, que luta para provar valor como cavaleiro; e há também Arthur, que é tudo para seu povo e, portanto, nunca o suficiente para Guinevere. A jovem não tem memórias da infância, e nenhuma ideia de quem era antes de se tornar Guinevere. E quanto mais tenta se reconhecer como rainha, mais acredita que Mordred pode estar certo: ela não pertence àquele lugar. Nunca vai pertencer. Quando um resgate falha e resulta na morte de algo precioso, uma Guinevere devastada retorna a Camelot, onde encontrará a maior ameaça de todas. Não se trata da Rainha das Trevas ou de um exército invasor, mas a irmã mais nova da verdadeira Guinevere. A farsa terá chegado ao fim? E quem, afinal, ela está enganando: Camelot ou a si mesma? Neste segundo volume da série As Novas Lendas de Camelot, Guinevere se aproxima ainda mais de segredos que espreitam nas profundezas da própria mente, levando seu coração por um caminho que pode significar o fim de Camelot",
+                "https://images-na.ssl-images-amazon.com/images/I/81TT90QJgQS.jpg",
                 categoryRepository.getById(10)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Sombra e Ossos",
+                27.98,
+                "Em um país dividido pela Dobra das Sombras – uma faixa de terra povoada por monstros sombrios – e no qual a corte real está repleta de pessoas com poderes mágicos, Alina Starkov pode se considerar uma garota comum. Seus dias consistem em trabalhar como cartógrafa no Exército e em tentar esconder de seu melhor amigo, Maly, o que sente por ele. Quando Maly é gravemente ferido por um dos monstros que vivem na Dobra, Alina, desesperada, descobre que é muito mais forte do que pensava: ela é consegue invocar o poder da luz, a única coisa capaz de acabar com a Dobra das Sombras e reunificar Ravka de uma vez por todas. Por conta disso, Alina é enviada ao Palácio para ser treinada como parte de um grupo de guerreiros com habilidades extraordinárias, os Grishas. Sob os cuidados do Darkling, o Grisha mais poderoso de todos, Alina terá que aprender a lidar com seus novos poderes, navegar pelas perigosas intrigas da corte e sobreviver a ameaças vindas de todos os lados.",
+                "https://images-na.ssl-images-amazon.com/images/I/81WKPIFKThL.jpg",
                 categoryRepository.getById(10)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A rainha vermelha",
+                24.90,
+                "O mundo de Mare Barrow é dividido pelo sangue: vermelho ou prateado. Mare e sua família são vermelhos: plebeus, humildes, destinados a servir uma elite prateada cujos poderes sobrenaturais os tornam quase deuses. Mare rouba o que pode para ajudar sua família a sobreviver e não tem esperanças de escapar do vilarejo miserável onde mora. Entretanto, numa reviravolta do destino, ela consegue um emprego no palácio real, onde, em frente ao rei e a toda a nobreza, descobre que tem um poder misterioso… Mas como isso seria possível, se seu sangue é vermelho? Em meio às intrigas dos nobres prateados, as ações da garota vão desencadear uma dança violenta e fatal, que colocará príncipe contra príncipe - e Mare contra seu próprio coração.",
+                "https://images-na.ssl-images-amazon.com/images/I/71-gOnTKuOL.jpg",
                 categoryRepository.getById(10)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Hobbit + pôster",
+                27.86,
+                "Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos. Esta jornada fará Bilbo, Gandalf e 13 anãos atravessarem a Terra-média, passando por inúmeros perigos, sejam eles, os imensos trols, as Montanhas Nevoentas infestadas de gobelins ou a muito antiga e misteriosa Trevamata, até chegarem (se conseguirem) na Montanha Solitária. Lá está um incalculável tesouro, mas há um porém. Deitado em cima dele está Smaug, o Dourado, um dragão malicioso que... bem, você terá que ler e descobrir. Lançado em 1937, O Hobbit é um divisor de águas na literatura fantástica mundial. Mais de 80 anos após a sua publicação, o livro que antecede os ocorridos em O Senhor dos Anéis continua arrebatando fãs de todas as idades, talvez pelo seu tom brincalhão com uma pitada de magia élfica, ou talvez porque J.R.R. Tolkien tenha escrito o melhor livro infanto-juvenil de todos os tempos.",
+                "https://images-na.ssl-images-amazon.com/images/I/91M9xPIf10L.jpg",
                 categoryRepository.getById(10)));
 
         // - Artes (11)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Van Gogh",
+                70.31,
+                "Mestre da pintura do século XIX e profeta da arte moderna, Vincent Willem van Gogh (18531890) nasceu num vilarejo fronteiriço nos confins pantanosos do sul da Holanda, filho primogênito de um modesto pastor protestante. Solitário e impetuoso desde criança, o artista fracassou em todas as tentativas de se fixar numa profissão “respeitável”. Somente encontrou alívio parcial para seus anseios excruciantes na produção de milhares de desenhos e pinturas, ao mesmo tempo em que submergia na doença e na loucura. Steven Naifeh e Gregory White Smith apresentam nesta monumental reconstituição biográfica uma visão ao mesmo tempo erudita e apaixonada sobre o artista holandês. Os autores, responsáveis por uma biografia de Jackson Pollock (inédita no Brasil e inspiradora do filme Pollock, de 2000), esmiúçam o conturbado relacionamento com os pais, a amizade com o irmão Theo, a relação intensa com a religião, a errância entre diversas cidades, a vida sexual desregrada, o fracasso em vender suas obras, a amizade conturbada com Paul Gauguin, a loucura, a orelha mutilada - e sugere uma explicação surpreendente para o suposto suicídio. Amparados pela mais ampla documentação já reunida sobre Van Gogh, Naifeh e Smith orientam o leitor com impecável segurança através do intrincado labirinto de referências estéticas, literárias e religiosas que definiu sua curta existência. Desse modo, diversas imprecisões, bem como mitos há muito estabelecidos na fortuna crítica vangoghiana, são esclarecidos com admirável sensibilidade humana e artística. O livro é complementado pelo site www.vangoghbiography.com (em inglês), com notas bibliográficas e vasto material iconográfico. “A biografia definitiva para as próximas décadas.” - Leo Jansen, curador do Museu Van Gogh (Amsterdam) “O que [Naifeh e Smith] capturam poderosamente em Van Gogh é sua extraordinária determinação para aprender, perseverar contra os infortúnios, continuar a pintar mesmo quando seus primeiros professores o ridicularizavam, quando uma facilidade natural parecia enganá-lo, quando suas telas encalhavam.” - Michiko Kakutani, The New York Times “Uma biografia de Van Gogh minuciosa o suficiente para ensejar uma reavaliação de tudo o que já se escreveu sobre o artista, e do que ele escreveu sobre si mesmo.” - William Feaver, The Guardian",
+                "https://images-na.ssl-images-amazon.com/images/I/A1iDo4IxphS.jpg",
                 categoryRepository.getById(11)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Arte moderna",
+                155.44,
+                "'Giulio Carlo Argan foi o último representante de uma grande tradição crítica que corresponde historicamente aos movimentos modernos da arte. De fato, o crítico e ensaísta italiano provém de uma escola (a de Adolfo e Lionello Venturi) que procura o sentido da arte na sua história, mais do que em faculdades inatas ou em princípios absolutos. Foi Argan, aliás, que levou essa orientação até as últimas conseqüências: se a arte é um fenômeno histórico, não há garantia de que ela seja eterna. O desaparecimento do artesanato, de que a arte era guia e modelo, e o surgimento da produção industrial, que se baseia sobre outros princípios, pode muito bem determinar o fim da arte como atividade culturalmente relevante. Essa tese é o pano de fundo desta Arte moderna.' Lorenzo Mammì",
+                "https://images-na.ssl-images-amazon.com/images/I/91aBvPCAdXL.jpg",
                 categoryRepository.getById(11)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Leonardo - A obra gráfica",
+                124.90,
+                "Este livro apresenta os desenhos do grande mestre da história da arte, a partir de estudos anatômicos e retratos de crianças rechonchudas com projetos complexos de engenharia e desenhos arquitetônicos. Mais de 600 desenhos de página inteira, compilados a partir de nossa edição original em formato XL.",
+                "https://images-na.ssl-images-amazon.com/images/I/81CFxJqd5QL.jpg",
                 categoryRepository.getById(11)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Van Gogh",
+                9.99,
+                "Conheça o grande artista Van Gogh e algumas de suas pinturas magníficas neste livro de arte com adesivos. Você vai conhecer os fatos mais marcantes da vida de Van Gogh e ainda se divertir completando as páginas com os adesivos. Conhecer um artista nunca foi tão interessante!",
+                "https://images-na.ssl-images-amazon.com/images/I/51CheMCcuAL.jpg",
                 categoryRepository.getById(11)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A História da Arte (Pocket Edition)",
+                63.89,
+                "A História da Arte é o mais célebre e popular livro sobre arte já publicado. Por mais de 50 anos, foi uma introdução inigualável ao tema, desde as primeiras pinturas nas cavernas até a arte experimental de hoje. Em todo o mundo, leitores de todas as idades e formações encontraram no Professor Gombrich um verdadeiro mestre, que alia conhecimento e sabedoria a um talento peculiar para comunicar de maneira direta seu profundo amor pelas obras de arte que descreve.A História da Arte deve sua duradoura popularidade não só ao texto objetivo e simples, mas também à perícia do autor em apresentar uma narrativa clara. Ele descreve sua intenção de 'pôr em alguma ordem inteligível a profusão de nomes, períodos e estilos que congestionam as páginas de obras mais ambiciosas', e, fazendo uso de seus conhecimentos da psicologia das artes visuais, leva-nos a ver a história da arte como \"a história do contínuo entrelaçamento e transformação de tradições em que cada obra se refere ao passado e aponta para o futuro\", \"uma rede viva de tradição que ainda liga os nossos dias ao tempo das pirâmides\". Neste novo formato, a edição de bolso (Pocket Edition) desta obra clássica pretende continuar sua trajetória triunfal junto às novas gerações e manter-se como a primeira opção de todos os recém-chegados ao campo da arte.",
+                "https://images-na.ssl-images-amazon.com/images/I/51N6PcXGLSL.jpg",
                 categoryRepository.getById(11)));
 
         // - Filosofia (12)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Filosofia: e nós com isso?",
+                18.16,
+                "Um dos grandes nomes da filosofia nacional, Mario Sergio Cortella já conquistou milhares de pessoas com suas palestras e livros esclarecedores e provocativos. Nesta nova obra, \"Filosofia: e nós com isso?\", aborda um assunto profundo e necessário, e explica porque a Filosofia é tão importante para nossa vivência. Segundo Cortella: “A principal contribuição da Filosofia é criar obstáculos, de modo a impedir que as pessoas fiquem prisioneiras do óbvio, isto é, que circunscrevam a sua existência dentro de limites estreitos, de horizontes indigentes e de esperanças delirantes. Em outras palavras, a Filosofia estende a nossa consciência e fortalece nossa autonomia.” ",
+                "https://images-na.ssl-images-amazon.com/images/I/81RIBWe5VvL.jpg",
                 categoryRepository.getById(12)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Filosofia para mortais",
+                21.96,
+                "A mortalidade é condição inescapável para a filosofia. É ela que nos lembra todos os dias o quanto somos imperfeitos e que nos angustia com nossa própria insignificância no mundo. Mas, ao mesmo tempo, é ela que nos motiva a viver plenamente, a tirar o maior proveito de nossa curta estadia neste planeta, a nos tornar melhores a cada dia. Trilhar uma vida com significados não é simples, mas a filosofia está aí para nos ajudar. E é por meio dela que o historiador Daniel Gomes de Carvalho convida à reflexão, mostrando como o conhecimento filosófico nos ajuda a lidar com as questões mais inquietantes da vida: o bem e o mal, o amor, a política, a beleza e os rumos de nossa sociedade. E esse conhecimento, para Daniel, não está apenas nos grandes filósofos da história: está também em nossas séries preferidas, como Game of Thrones; está na música que não sai da nossa cabeça; está naquele quadro de que sempre ouvimos falar, mas nunca entendemos muito bem. A filosofia, essa área de conhecimento tão essencial e ao mesmo tempo tão subestimada, está por toda parte.",
+                "https://images-na.ssl-images-amazon.com/images/I/91E1CK8On0S.jpg",
                 categoryRepository.getById(12)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Sobre a brevidade da vida: Edição Bilíngue com postal + marcador",
+                21.99,
+                "Sobre a brevidade da vida apresenta o pensamento de Sêneca, um dos principais nomes da filosofia estoica na história. Neste breve ensaio, o filósofo romano nos leva a refletir sobre uma questão fundamental para a humanidade: como usar o tempo em favor de uma vida plena e feliz. Tema universal e relevante até os dias de hoje. Esta é uma edição bilíngue, com nova tradução direta do latim, feita pelo professor Artur Costrino, mestre em Estudos Clássicos e ph.D. em Estudos Medievais. Além do texto original, a tradução traz notas explicativas para facilitar a compreensão da obra. Com estes escritos, Lúcio Aneu Sêneca se posiciona como um dos grandes expoentes da corrente filosófica estoica, ao lado do imperador Marco Aurélio. Uma obra fundamental para entendermos melhor esse importante movimento filosófico do Ocidente.",
+                "https://images-na.ssl-images-amazon.com/images/I/81TNzkUcNzL.jpg",
                 categoryRepository.getById(12)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Órganon: Categorias - Da interpretação - Analíticos anteriores - Analíticos posteriores - Tópicos - Refutações Sofísticas",
+                64.99,
+                "Obra monumental na qual Aristóteles estabelece as bases da lógica formal. Está entre as mais importantes e complexas que nos foram legadas pelo Estagirita. A fim de facilitar e agilizar a consulta ao Órganon, fizemos constar à margem esquerda a consagrada numeração da edição referencial de 1831, de Bekker.",
+                "https://images-na.ssl-images-amazon.com/images/I/81Je5YjtN8L.jpg",
                 categoryRepository.getById(12)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Textos básicos de filosofia: Dos pré-socráticos a Wittgenstein",
+                38.33,
+                "Essa antologia de textos dos grandes pensadores tem como objetivo pôr o estudante em contato direto com as fontes da filosofia ocidental. Em lugar de o aluno \"ouvir falar\" ou \"ler sobre\" a Alegoria da Caverna, por exemplo, terá oportunidade de conhecer o texto original de Platão. O professor Danilo Marcondes, com a experiência de mais de quinze anos de magistério, selecionou passagens onde se encontram alguns dos textos-chaves e argumentos centrais da tradição filosófica. Com finalidade didática, o volume inclui pequenas introduções aos filósofos e a cada um de seus textos, além de uma série de questões e temas para discussão em sala de aula ou em grupos de estudo. Agora professores e alunos já contam com um aparato completo para ensinar e estudar: Iniciação à história da filosofia, amplamente adotado e sucessivamente reeditado, e Textos básicos de filosofia formam um conjunto, o primeiro orientando o leitor nos caminhos da filosofia, o outro trazendo as fontes da filosofia ocidental.",
+                "https://images-na.ssl-images-amazon.com/images/I/91p16q-LIiL.jpg",
                 categoryRepository.getById(12)));
 
         // - Idiomas (13)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Espanhol - Coleção Curso Rápido de Idiomas",
+                227.00,
+                "Com exercícios ilustrados e frases que remetem a situações cotidianas, este título oferece um método eficiente, com duração de 12 semanas, para quem busca aprender o espanhol do zero ou reforçar seus conhecimentos. É composto por uma caixa que inclui três volumes - Livro do curso, Guia de conversação ilustrado e Gramática essencial -, que abordam conceitos de gramática e vocabulário, e três CDs de áudio, que permitem o treino da pronúncia com nativos.",
+                "https://images-na.ssl-images-amazon.com/images/I/51SdXscZuoL.jpg",
                 categoryRepository.getById(13)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Guia de conversação Lonely Planet – Japonês",
+                29.89,
+                "Com o Guia de Conversação Japonês, da Lonely Planet, você vai pedir o prato que quiser nos restaurantes de Tóquio, vai andar de ônibus, metrô e barco em Kyoto, pedir informações e conversar com nativos em Yokohama e aprender frases fundamentais para se comunicar. Além de orientações sobre gramática, pronúncia e leitura do idioma japonês, o Guia de Conversação Japonês tem dicas culturais e de etiqueta para você fazer bonito no país do sol nascente.",
+                "https://images-na.ssl-images-amazon.com/images/I/61e2bU7EaHL.jpg",
                 categoryRepository.getById(13)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Russo Essencial + CD",
+                33.27,
+                "A Série Essencial de idiomas, editada no Brasil pela Martins Fontes - selo Martins, traz para o estudante básico a oportunidade de desenvolver habilidades em um novo idioma. Seguindo um plano de atividades que aproxima o falante da língua do dia a dia, é possível determinar seu próprio ritmo para estudar espanhol, italiano ou russo. Cada livro acompanha um CD que permite que o leitor escute as sentenças e diálogos em sua pronúncia original e, assim, desenvolva o aprendizado com mais precisão e dinamismo. Para maior comodidade o CD de áudio é compatível com IPod e MP3. O estudante também dispõe de um glossário de termos e de um guia fonético para aperfeiçoar ainda mais as suas investigações.",
+                "https://images-na.ssl-images-amazon.com/images/I/71yekVAeh6L.jpg",
                 categoryRepository.getById(13)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Como dizer tudo em inglês: livro de atividades",
+                50.08,
+                "O objetivo deste 'Como Dizer Tudo em Inglês - Livro de Atividades' é treinar conversação e fluência com os termos e expressões apresentados no primeiro livro. Acompanhando capítulo por capítulo o conteúdo do Como Dizer Tudo em Inglês, o livro oferece exercícios e atividades para treinar expressões e palavras. As atividades são diversificadas, podendo ser feitas tanto em sala de aula quanto individualmente. Um livro de atividades acompanha o livro original oferecendo exercícios e atividades para complementar o ensino das palavras e expressões no original.",
+                "https://images-na.ssl-images-amazon.com/images/I/81ppHhcR2tL.jpg",
                 categoryRepository.getById(13)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Muito prazer - vol. único - livro do aluno: Fale o Português do Brasil",
+                155.40,
+                "Curso de Português para estrangeiros que tem como objetivo capacitar o aluno, de qualquer nacionalidade, a aprender o Português falado no Brasil e a comunicar-se com precisão e fluência. Com abordagem nova, combina as melhores caracteristicas das abordagens mais modernas de ensino de língua estrangeira.",
+                "https://images-na.ssl-images-amazon.com/images/I/71aaM-z+q0L.jpg",
                 categoryRepository.getById(13)));
 
         // - Cinema (14)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "História do cinema mundial",
+                55.99,
+                "Fruto de três anos de profundas pesquisas, História do cinema mundial traz um viés inédito para o estudo do tema: o enfoque geográfico e cultural da sétima arte. Na primeira parte do livro, Franthiesco Ballerini explica como se formaram as principais indústrias cinematográficas do mundo, como Hollywood e Bollywood. Em seguida, passeia pelos movimentos cinematográficos mais emblemáticos do planeta – como o Neorrealismo italiano e a Nouvelle Vague francesa. Na terceira parte, o autor faz uma análise do melhor cinema feito em cada continente, especificando aspectos culturais, estéticos e de linguagem. Utilizando o didatismo que lhe é característico, Ballerini se dirige a estudantes de artes e comunicação, profissionais do cinema e do audiovisual, professores e artistas. Na obra, o leitor também encontrará: pequenas sinopses dos filmes mais importantes; curiosidades sobre os bastidores da indústria cinematográfica; listas com os filmes essenciais; lindas fotografias que ajudam a contar a história de cada capítulo; índice onomástico composto por todas as películas citadas e por diretores, atores e produtores.",
+                "https://images-na.ssl-images-amazon.com/images/I/81z0efW6YdL.jpg",
                 categoryRepository.getById(14)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Da criação ao roteiro: Teoria e prática",
+                83.50,
+                "Depois de quarenta anos de uma vida dedicada ao ato de escrever para o cinema, o teatro e a televisão no Brasil e na Europa, Doc Comparato concebe uma nova visão do trabalho do roteirista. Nos apresenta de maneira única um novo recorte e panorama para quem quer se dedicar aos meios de comunicação no terceiro milênio. Nascem novas definições, atribuições e concepções, que abrangem exemplos e exercícios inovadores, aplicados em roteiros inéditos. A obra tem a missão de trazer o que existe de mais moderno na criação para streaming, realidade virtual, webséries, game e inteligência artificial, e aborda ainda contratos, adaptações, festivais, contatos profissionais, universitários e muito mais. De forma magistral, o atualíssimo Da criação ao roteiro mantém o equilíbrio entre o texto teórico e o pragmatismo do manual que ensina como fazer hoje e no futuro. O livro é uma ferramenta de conhecimento inesgotável para profissionais e estudantes.",
+                "https://images-na.ssl-images-amazon.com/images/I/712894TP2QL.jpg",
                 categoryRepository.getById(14)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Como falar sobre cinema: Um guia para apreciar a sétima arte",
+                30.50,
+                "Seja na tentativa de impressionar alguém após a exibição de um filme de arte ou ao discutir as indicações ao Oscar entre amigos, a maioria das pessoas gosta de descobrir maneiras de ver e falar sobre cinema. Mas com tanta variedade, entre thrillers de Alfred Hitchcock e comédias românticas de Nora Ephron, como os espectadores podem determinar o que torna um filme realmente bom? Em Como falar sobre cinema: Um guia para apreciar a sétima arte, a crítica de cinema do The Washington Post e indicada ao Pulitzer de melhor crítica Ann Hornaday nos conduz pelos aspectos da produção de um filme – do roteiro e elenco à edição de som – e explica como avaliar cada etapa do processo. Como saber se um filme foi bem escrito, para além de diálogos rápidos? O que constitui uma ótima atuação? O que torna uma fotografia, edição e edição de som notáveis? E o que realmente faz um diretor? A autora nos oferece essas respostas e nos mostra como a experiência de assistir a um filme pode ser muito mais rica do que imaginávamos. Apresentando curiosidades e entrevistas com atores e cineastas, Como falar sobre cinema vai ajudar você a enxergar o cinema sob uma luz totalmente nova – não apenas como fã, mas como um autêntico crítico de cinema.",
+                "https://images-na.ssl-images-amazon.com/images/I/71Twlx-TiiS.jpg",
                 categoryRepository.getById(14)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Friends forever – aquele sobre os episódios; o livro oficial dos 25 anos de Friends: 1",
+                125.22,
+                "O LIVRO OFICIAL DOS 25 ANOS DE FRIENDS EM UMA EDIÇÃO ESPECIAL DE COLECIONADOR! Friends apresentou ao mundo seis melhores amigos que poderiam ser os seus melhores amigos. Ou os da sua tia. Ou os do seu vizinho. Com um enredo tão simples, talvez poderia ter dado tudo errado nas mãos de outras pessoas, e nós não teríamos este livro. Mas Friends caiu nas mãos certas… tanto daqueles que conhecemos tão bem da TV quanto dos que trabalharam nos bastidores. E aí tudo aconteceu. Friends se tornou uma das comédias mais queridas da atualidade e resistiu ao tempo. Qual outro programa de TV consegue agradar tanto a geração X como aos Millennials, e influenciou não só outros seriados como até nosso jeito de falar? Ou você nunca ficou na Friendzone ou não tem um BFF? Difícil não pensar nos nossos 20 e poucos anos e não associar alguma situação da nossa própria vida com Rachel, Monica, Phoebe, Joey, Chandler e Ross. Difícil também escolher algum preferido, porque o que amamos em Friends é justamente ver os seis juntos. Pegue uma xícara gigante de café e prepare-se, porque, quando abrir estas páginas, certamente vão rolar risos e quem sabe algumas lágrimas de nostalgia também.",
+                "https://images-na.ssl-images-amazon.com/images/I/916jlX+JqJL.jpg",
                 categoryRepository.getById(14)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O que é o cinema?",
+                55.22,
+                "Clássico dos clássicos entre os escritos sobre cinema, este livro é uma aula sobre a sétima arte e suas relações com fotografia, teatro e literatura, e, sobretudo, uma escola definitiva sobre o fazer crítico. A variedade de temas caros à história do cinema neste volume indica a versatilidade e a generosidade de André Bazin. Com um estilo claro e acessível, ele transita das escolas italiana e soviética ao universo do western e das pin-ups, o que fez com que, merecidamente, tenha se transformado num dos maiores críticos modernos. Considerado um dos maiores críticos do pós-guerra, Bazin produziu a maior parte dos textos reunidos aqui no contexto dos cineclubes parisienses, entre 1945 e 1958. Fundador da revista francesa Cahiers du Cinéma, o crítico esteve na linha de frente da produção cinematográfica do período, convivendo com cineastas como os jovens Jean-Luc Godard, Eric Rohmer e François Truffaut, seu filho adotivo. Mais tarde, os cineastas dessa geração tomariam Bazin como mentor da nouvelle vague. A presente edição reune 36 textos de André Bazin, bem como uma apresentação e um apêndice assinado pelo crítico e professor de cinema Ismail Xavier, que dá conta da influência bazaniana na teoria e crítica de cinema em nosso país, em especial, personificada na figura de Paulo Emílio Sales Gomes.",
+                "https://images-na.ssl-images-amazon.com/images/I/911Gxw+XeaL.jpg",
                 categoryRepository.getById(14)));
 
         // - Pedagogia (15)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Pedagogias do Século XXI: Bases para a Inovação Educativa",
+                42.38,
+                "Quais são os novos discursos e práticas pedagógicas que estão emergindo e iluminando este século? Quais são as identidades, referências e experiências mais emblemáticas dessas pedagogias na história recente da educação? O que trazem de novo e o que desejam rever? Esta obra apresenta ao leitor iniciativas que se preocupam em melhorar as relações educativas e conseguir um ambiente escolar mais amável; em fomentar a cooperação, a participação e a democratização da gestão escolar diária; em estimular o protagonismo dos alunos e sua curiosidade pelo conhecimento; em transformar a sala de aula em um espaço de pesquisa e diálogo; em aproximar a escola da realidade e vice-versa, para que tudo aquilo que se ensine e aprenda seja estimulante e faça sentido para a formação de uma futura cidadania mais livre, responsável, criativa e crítica e, finalmente, para que a escola seja mais educativa.",
+                "https://images-na.ssl-images-amazon.com/images/I/81lEo38amCL.jpg",
                 categoryRepository.getById(15)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Brincar é fundamental: Como entender o neurodesenvolvimento e resgatar a importância do brincar durante a primeira infância",
+                20.20,
+                "“Você e a sua criança precisam remar juntos, como se estivessem em uma canoa, se quiserem avançar e chegar a algum lugar”. – Luciana Brites “Nos primeiros anos de vida, o brincar representa uma situação de criatividade espontânea que enriquece o conhecimento, a sociabilidade e as funções cerebrais no processo de aprendizagem. Ao brincar, a criança emite criatividade, expressa fantasias, sensações, e emoções internas e adquire maturidade, resultados esses que a gratificam continuamente. Em Brincar é fundamental, Luciana Brites nos ajuda a compreender melhor o processo de aprendizagem e a importância dos estímulos adequados na primeira infância a partir dos aspectos anatomofuncionais do sistema nervoso, como a linguagem, a audição e a visão. Além de reunir referências de publicações de renomados pesquisadores da área, a autora constrói, em linguagem acessível, um guia prático destinado a mães, pais, educadores e profissionais que lidam com crianças que desejam compreender melhor o desenvolvimento na primeira infância.” – Profa. Dra. Maria Valeriana Leme de Moura Ribeiro, neurologista infantil Neste livro você vai aprender: 1. A identificar e a compreender as etapas do neurodesenvolvimento da criança; 2. Quais são os estímulos adequados para a criança na primeira infância; 3. Como otimizar o desenvolvimento do seu filho, aluno ou criança com a qual convive; 4. Entender os aspectos que ajudam na estimulação das crianças: aprendizagem, brincadeira, cognição e desenvolvimento; 5. A importância do desenvolvimento adequado na primeira infância para que a criança se torne um adulto pleno, realizado e feliz",
+                "https://images-na.ssl-images-amazon.com/images/I/8100KHaVtxL.jpg",
                 categoryRepository.getById(15)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Alfabetizar e letrar: Um diálogo entre a teoria e a prática",
+                27.89,
+                "Neste livro, a autora argumenta que é possível alfabetizar crianças e adultos, isto é, ensinar-lhes o código alfabético, e, ao mesmo tempo, com a mesma ênfase, convidá-los a participar da aventura do conhecimento implícita no ato de ler.",
+                "https://images-na.ssl-images-amazon.com/images/I/81StNtKgkiL.jpg",
                 categoryRepository.getById(15)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Pedagogia e pedagogos, para quê?",
+                32.90,
+                "O livro discute questões relacionadas com o campo teórico da Pedagogia, a prática educativa como seu objeto, a relação com as demais ciências da educação, a identidade profissional do pedagogo e seu papel diante das realidades contemporâneas.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1bIhfBWbML.jpg",
                 categoryRepository.getById(15)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Comunicação não violenta - Nova edição: Técnicas para aprimorar relacionamentos pessoais e profissionais",
+                49.86,
+                "Em um mundo violento, cheio de preconceitos, conflitos e mal-entendidos, buscamos ansiosamente soluções para melhorar nossa relação com os outros. Nesse sentido, a boa comunicação é uma das armas mais eficazes. Grande parte dos problemas entre casais, pais e filhos, empregados e empregadores, vizinhos, políticos e governantes pode ser amenizada e frequentemente evitada apenas com... palavras. Porém, saber ouvir o que de fato está sendo dito pelo outro e expressar o que de fato queremos dizer, embora pareça tarefa simples, é das mais difíceis. Nesta obra, best-seller no Brasil e no mundo, Marshall Rosenberg explica de maneira revolucionária os valores e princípios da comunicação não violenta, que se baseia em habilidades de linguagem e comunicação que fortalecem nossa capacidade de manter a humanidade, mesmo em condições adversas. Usando sua experiência como psicólogo clínico e criador do método da CNV, ele ensina o leitor a: • entregar-se de coração aos relacionamentos e se libertar dos condicionamentos e dos efeitos de experiências passadas; • identificar e expressar sentimentos; • expressar a raiva de forma não violenta; • transformar padrões negativos de pensamento; • resolver seus conflitos com os outros de forma pacífica; • criar relacionamentos interpessoais baseados em respeito mútuo, compaixão e cooperação. Nesta nova edição, que conta com um capítulo inédito sobre mediação e solução de conflitos e prefácio de Deepak Chopra, Marshall Rosenberg consolida seu trabalho, reconhecido mundialmente, e compartilha com os leitores ensinamentos testados e comprovados na prática.",
+                "https://images-na.ssl-images-amazon.com/images/I/71ZS-B3zscS.jpg",
                 categoryRepository.getById(15)));
 
         // - Saúde (16)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Saúde perfeita (edição de bolso)",
+                25.89,
+                "O autor best-seller Deepak Chopra traz cura, rejuvenescimento e bem-estar nesta obra em formato de bolso. Reconhecido por seu pioneirismo ao abordar o tema do poder de cura da mente, o médico indiano Deepak Chopra recomenda os princípios da medicina tradicional indiana para superar as limitações da doença e do envelhecimento.Publicado originalmente em 1990, o livro Saúde perfeita tornou-se um best-seller mundial ao descortinar as práticas do Ayurveda. Esta edição de bolso inclui as pesquisas médicas mais recentes sobre a medicina tradicional indiana, além de técnicas novas desenvolvidas pelo autor em seu centro de medicina ayurvédica. Obra essencial para quem busca vida saudável e equilíbrio das funções vitais do organismo.",
+                "https://images-na.ssl-images-amazon.com/images/I/71oVbkVTrxL.jpg",
                 categoryRepository.getById(16)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A dieta da mente (Edição revista e atualizada): Descubra os assassinos silenciosos do seu cérebro",
+                34.29,
+                "Nesta edição ampliada de seu best-seller A dieta da mente, o dr. David Perlmutter volta a chamar atenção para um segredo que só começou a ser revelado recentemente: o destino do seu cérebro não está na sua genética, mas naquilo que você come. E os carboidratos são os grandes vilões; até mesmo aqueles considerados “saudáveis”, como os grãos integrais, podem causar Alzheimer, ansiedade, depressão, enxaquecas, redução de libido e muitos outros males. Como escapar dessa armadilha e se manter saudável? A resposta do dr. Perlmutter é simples: uma dieta rica em “gorduras boas” e práticas que estimulam a regeneração neuronal em qualquer idade. Para isso, ele propõe um revolucionário programa de quatro semanas que aponta o caminho para manter o cérebro sadio, vibrante e aguçado ― sem medicamentos. Com novas descobertas científicas, histórias reais de transformação, conselhos práticos e acessíveis, receitas deliciosas incluídas nesta edição e metas semanais, este livro vai ajudá-lo a assumir o controle dos seus genes, recuperar o bem-estar e manter a saúde e a vitalidade por toda a vida. “A nova edição de A dieta da mente é brilhante, acessível e revolucionária. Seguindo os conselhos científicos deste livro, você pode ter um corpo e um cérebro mais saudáveis a partir de hoje.” ― Dr. Daniel G. Amen, autor de Mude seu cérebro, mude seu corpo e Use seu cérebro para mudar sua idade",
+                "https://images-na.ssl-images-amazon.com/images/I/718QOzHpJZL.jpg",
                 categoryRepository.getById(16)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Bases bioquímicas e fisiológicas da nutrição: Nas diferentes fases da vida, na saúde e na doença",
+                125.98,
+                "A área do conhecimento da Ciência da Nutrição é bastante ampla, multidisciplinar e interprofissional. Bases bioquímicas e fisiológicas da nutrição: nas diferentes fases da vida, na saúde e na doença se dirige aos interessados em obter, em uma única obra, material que contemple não somente aspectos básicos e informações científicas clássicas, como também as descobertas mais recentes da Nutrição. Nessa 2ª edição, toda a obra foi minuciosamente revisada, trazendo o que há de mais novo na área. Além disso, foram adicionados cinco capítulos, em razão do cenário científico atual: “Anemias”; “Doença celíaca e outros distúrbios associados ao glúten”; ”Nutrição e doenças inflamatórias intestinais”; ”Intolerância à lactose”; e “Nutrição e microbiota intestinal”. O livro está dividido em 4 partes: • Macronutrientes, produção de energia, fibra alimentar e equilíbrio hidroeletrolítico e acidobásico • Micronutrientes e compostos bioativos de alimentos • Nutrição nas diferentes fases da vida • Nutrição na saúde e na doença Cada um dos capítulos foi cuidadosamente elaborado para atender às necessidades de estudantes de graduação, de pós-graduação e de profissionais nas áreas da Bioquímica e da Fisiologia da Nutrição. Trata-se, portanto, de obra de referência para a área, de importância ímpar para a literatura científica do Brasil.",
+                "https://images-na.ssl-images-amazon.com/images/I/81gRoSvaXVL.jpg",
                 categoryRepository.getById(16)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Análise do comportamento aplicada ao transtorno do espectro autista: Volume 1",
+                75.47,
+                "O livro Análise do Comportamento Aplicada ao Transtorno do Espectro Autista é pioneiro em apresentar, em língua portuguesa, material sobre o tratamento mais eficaz para pessoas com Transtorno do Espectro Autista (TEA): aquele baseado na ciência Análise do Comportamento Aplicada (ABA, do inglês Applied Behavior Analysis). A superioridade do tratamento baseado na ABA sobre outras formas de terapia para remediar os déficits associados ao TEA tem sido demonstrada por pesquisas realizadas nos últimos 50 anos. Por essa razão, atualmente, tratamentos baseados na ABA têm sido recomendados por organizações, como o Conselho Nacional Americano de Pesquisa e a Associação Americana de Pediatria.O conteúdo do livro foi escolhido com base em periódicos que, reconhecidamente, produzem conhecimento de ponta na ABA, como o Journal of Applied Behavior Analysis e o Behavior Analysis in Practice e, concomitantemente, os documentos da Behavior Analyst Certification Board (BACB®). Os capítulos introduzem os conceitos de forma gradual, partindo das conceituações de TEA, de Análise do Comportamento e da ABA, passando por suas bases filosóficas, conceitos básicos e procedimentos de ensino gerais, até chegar a intervenções específicas para o tratamento de déficits e de excessos que costumam ser observados em pessoas com TEA, tais como emissão de comportamentos-problema, distúrbios de alimentação e de linguagem.Os autores de cada capítulo foram cuidadosamente escolhidos de acordo com suas especializações para abordar um determinado tema, o que resultou na participação de pesquisadores e clínicos de diferentes instituições do Brasil e dos Estados Unidos, reconhecidos, nacional e internacionalmente, por suas contribuições para a área e em material de altíssima qualidade.Dessa maneira, estudantes de graduação, de pós-graduação e profissionais de diferentes áreas interessados no tratamento de TEA encontrarão informações necessárias tanto para aqueles que estão iniciando seus estudos sobre a ABA quanto para aqueles que já possuem algum conhecimento sobre essa ciência.",
+                "https://images-na.ssl-images-amazon.com/images/I/817HZ9lQnFL.jpg",
                 categoryRepository.getById(16)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Manual Clínico dos Transtornos Psicológicos: Tratamento Passo a Passo",
+                126.95,
+                "Com foco na prática baseada em evidências, esta é uma obra de referência para profissionais e estudantes da área da saúde mental interessados em saber “como se faz”. Guia de excelência para o diagnóstico e o tratamento dos transtornos psicológicos mais frequentes em adultos, este livro chega à sua quinta edição amplamente revisado, contemplando os avanços provenientes da pesquisa e da clínica e as mudanças nos critérios diagnósticos do DSM-5. Além de novos capítulos que apresentam protocolos de tratamento para a insônia e para o transtorno de ansiedade generalizada, aborda também a combinação de tratamentos para casos de depressão e abuso de substâncias.",
+                "https://images-na.ssl-images-amazon.com/images/I/81-apWjsu7L.jpg",
                 categoryRepository.getById(16)));
 
         // - Psicologia (17)
