@@ -636,182 +636,182 @@ public class Config implements CommandLineRunner {
 
         // - Psicologia (17)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Poesia que Transforma",
+                19.87,
+                "Esse livro é uma homenagem à poesia e a tudo o que ela é capaz de proporcionar. Com mais de 30 de seus emocionantes poemas, alguns deles inéditos, Bráulio Bessa nos conta um pouco das histórias do menino de Alto Santo, no interior do Ceará, que se tornou poeta e ativista cultural. Desde o primeiro encontro com a obra de Patativa do Assaré, aos 14 anos, até a fama na televisão, ele mostra como a poesia transformou sua vida. Com ilustrações do artista baiano Elano Passos, o livro traz ainda depoimentos de fãs de todos os cantos do Brasil, revelando como as palavras de Bráulio são capazes de inspirar pequenas e grandes mudanças.",
+                "https://images-na.ssl-images-amazon.com/images/I/61kzpMiq+gL.jpg",
                 categoryRepository.getById(17)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Mindset: A nova psicologia do sucesso",
+                38.30,
+                "Carol S. Dweck, ph.D., professora de psicologia na Universidade Stanford e especialista internacional em sucesso e motivação, desenvolveu, ao longo de décadas de pesquisa, um conceito fundamental: a atitude mental com que encaramos a vida, que ela chama de “mindset”, é crucial para o sucesso. Dweck revela de forma brilhante como o sucesso pode ser alcançado pela maneira como lidamos com nossos objetivos. O mindset não é um mero traço de personalidade, é a explicação de por que somos otimistas ou pessimistas, bem-sucedidos ou não. Ele define nossa relação com o trabalho e com as pessoas e a maneira como educamos nossos filhos. É um fator decisivo para que todo o nosso potencial seja explorado.",
+                "https://images-na.ssl-images-amazon.com/images/I/71Ils+Co9fL.jpg",
                 categoryRepository.getById(17)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O palhaço e o psicanalista: Como escutar os outros pode transformar vidas",
+                34.90,
+                "Se de médico e louco todo mundo tem um pouco, de psicanalista e palhaço todo mundo tem um pedaço. Christian Dunker e Cláudio Thebas abordam neste livro, com bom humor e profundidade, um tema comum para ambos os ofícios: como escutar os outros? Como escutar a si mesmo? E como a escuta pode transformar pessoas? Mesclando experiências, testemunhos, casos e reflexões filosóficas, os autores compartilham o que aprenderam sobre A ARTE DA ESCUTA, um tema tão urgente no mundo atual, onde ninguém mais se escuta. Alguns temas abordados: Sete regras para ser melhor escutado / Os quatro agás da escuta / A potência do silêncio / Simpatia não é empatia / Como construir para si um órgão de escuta / Cuidado ou controle / A arte cavalheiresca de escutar uma reunião / Educados para a solidão silenciosa / Competir ou cooperar? / Três perguntas mágicas A arte de perguntar / Fala que eu não te escuto / Maneiras práticas de domesticar o abominável que existe em você / Escutando classes, gêneros, raças e outras diversidades / A escuta em ambiente digital / Escutando chatos, fascistas e outros fanáticos / O líder escutador / A coragem e o desejo de escutar / ",
+                "https://images-na.ssl-images-amazon.com/images/I/81LCThl+U9L.jpg",
                 categoryRepository.getById(17)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Guia de Terapia Cognitivo-Comportamental para o Terapeuta: A Mente Vencendo o Humor",
+                95.00,
+                "Neste Guia de terapia cognitivo-comportamental para o terapeuta, Christine A. Padesky e Dennis Greenberger apresentam orientações de como os terapeutas podem trabalhar os capítulos de A mente vencendo o humor para auxiliar clientes com diferentes problemas emocionais – ansiedade, depressão, raiva, culpa, vergonha, problemas de relacionamento e transtornos da personalidade. Além de diálogos terapeuta-cliente convincentes, que ilustram vividamente as intervenções centrais da terapia cognitivo-comportamental (TCC) e o manejo de situações desafiadoras, este livro, também disponível no formato ebook, traz uma ampla cobertura sobre o uso eficaz de registros de pensamento e experimentos comportamentais, incluindo, ainda, práticas baseadas em evidências de psicologia positiva, entrevista motivacional e terapia de aceitação e compromisso.",
+                "https://images-na.ssl-images-amazon.com/images/I/41gdkUGKTUL.jpg",
                 categoryRepository.getById(17)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A síndrome da boazinha: Como curar sua compulsão por agradar",
+                44.46,
+                "Descubra como curar sua compulsão por agradar e valorizar os seus desejos! As mulheres que sofrem dessa compulsão não são apenas as que se desdobram para garantir que todos à sua volta estejam felizes. Na verdade, aquelas que padecem desta síndrome passam por um sofrimento cotidiano ao esgotarem seu tempo e sua energia realizando tarefas desnecessárias apenas porque não sabem dizer “não”. Quando ajudar os outros se torna um comportamento compulsivo e não se consegue negar pedidos e exigências feitas por terceiros, a vida se torna um exercício diário de frustração. Para ajudar a superar este mal, a Dra. Harriet B. Braiker traz em A síndorme da boazinha uma análise criteriosa da compulsão por agradar e oferece um plano de ação de 21 dias para que você possa se curar rapidamente. Aprender a dizer “não”, obter a aprovação de si mesma e não fugir de conflitos são os primeiros passos para uma vida plena de realização e autoestima.A partir de histórias reais vividas no consultório da autora e de uma análise sobre a compulsão por agradar, A síndrome da boazinha procura estabelecer novos parâmetros na vida de quem sofre deste mal. Este livro vai ajudar você a identificar os momentos em que os outros abusam de sua bondade e mostrar que a própria aprovação é muito mais importante do que a de qualquer outra pessoa. Você perceberá que viver de forma equilibrada, levando a opinião dos outros em consideração, sem que ela tenha necessariamente que se sobrepor à sua vontade, é a melhor maneira para ser saudável e feliz.A síndrome da boazinha é a leitura ideal para você que deseja validar as suas vontades, encontrar a sua autoestima e se tornar a melhor versão de você mesma!",
+                "https://images-na.ssl-images-amazon.com/images/I/71QRHB9PAcL.jpg",
                 categoryRepository.getById(17)));
 
         // - Política (18)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Política é para todos",
+                23.30,
+                "O que é uma democracia e para que serve uma constituição? Quais são as atribuições de cada uma das três esferas de poder e como garantir que elas se mantenham em harmonia? Como funcionam as eleições e qual a importância das fake news nesse cenário? Em Política é para todos, a advogada e apresentadora Gabriela Prioli responde a essas e outras questões imprescindíveis para a compreensão do funcionamento da política ― sobretudo a brasileira ―, mas que muitas pessoas têm receio ou vergonha de perguntar. Com a linguagem descomplicada que fez dela uma das personalidades mais populares do país, a autora mostra como cada um de nós pode se engajar para construir a sociedade que queremos, debatendo os assuntos relevantes com opiniões próprias e argumentos racionais.",
+                "https://images-na.ssl-images-amazon.com/images/I/61QDJdGB6cS.jpg",
                 categoryRepository.getById(18)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Os Paradoxos da Justiça: Judiciário e Política no Brasil",
+                53.62,
+                "A EDITORA CONTRACORRENTE tem a satisfação de publicar o livro OS PARADOXOS DA JUSTIÇA: JUDICIÁRIO E POLÍTICA NO BRASIL do prestigiado autor MARCELO SEMER. A presente obra representa uma quebra de silêncio dentro de uma das instituições mais importantes do país e, ao mesmo tempo, uma das mais autoritárias e patriarcais, qual seja: o Poder Judiciário. O leitor tem em mãos um corajoso diagnóstico sobre as maiores contradições encontradas no Judiciário brasileiro. Nas palavras do prefaciador desse livro, o consagrado jurista Rubens Casara: “A crise de confiança no Judiciário, a tendência populista, a ideologia punitivista, as práticas autoritárias e a contribuição dos juízes brasileiros à derrocada do Estado Democrático de Direito, dentre outras distorções, são analisadas com profundidade e clareza neste livro, que nasce com a vocação de se tornar um clássico”.",
+                "https://images-na.ssl-images-amazon.com/images/I/91oT4AlXfnS.jpg",
                 categoryRepository.getById(18)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Politica ideologia e conspirações",
+                23.50,
+                "Sempre ouvimos teorias sobre conspirações guiando o mundo, comandadas pelo establishment político, ditadas por sociedades secretas, confrarias, religiões e organizações à sombra do Estado. No entanto, nunca eram apresentadas provas, documentos que atestassem a real existências das tramas. Até agora. Este livro mostra que, além de existirem, não se trata de algo secreto nem discreto, mas de uma guerra aberta, declarada e constante, que nos distrai com sua tática de colocar socialistas contra liberais, esquerda contra direita, capitalismo vs comunismo. Fomos divididos em torcidas de uma falsa disputa, e os que realmente vencem nem precisam entrar em campo, sempre estiveram juntos em um terceiro lado, que não estava disputando nada, apenas nos ocupando enquanto mantinham o poder. São os grandes banqueiros e elites globais que dirigem o mundo. Não à toa eles se vendem como socialistas, benevolentes e altruístas, há método nisso tudo: decidem as opções que você tem para votar, em que causas acredita, quais alimentos são saudáveis e o que deve consumir em todos os aspectos: bens móveis, imóveis e culturais. Famílias como Rockefeller, Morgans, Rothschilds e grupos como Bildeberg, Frankfurt e outros super-ricos são os personagens daqui, sempre ligados a figuras como Lênin, Trótski, Mao Tsé-Tung, Hitler, Karl Marx e tantos outros. Com as revelações apresentadas, pode-se decidir, com mais consciência, de quais causas, movimentos e ideais realmente vale a pena participar.",
+                "https://images-na.ssl-images-amazon.com/images/I/81zcxJMUR7S.jpg",
                 categoryRepository.getById(18)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Dinheiro, eleições e poder: As engrenagens do sistema político brasileiro",
+                46.65,
+                "Diante do cenário político e econômico atual, muitos autores têm procurado discutir se nosso presidencialismo de coalizão funciona. Bruno Carazza foi além, avaliando quais são os custos de seu precário funcionamento. Especialista em direito e economia, Bruno Carazza criou uma metodologia original para destrinchar as engrenagens do sistema político brasileiro. Para escrever Dinheiro, eleições e poder, ele compilou e cruzou um volume imenso de dados sobre doações de campanhas eleitorais, tramitação de projetos, votações e atuação parlamentar, que são contextualizados por fragmentos das delações premiadas e dos depoimentos de testemunhas ouvidas nas várias fases da Operação Lava Jato e do julgamento da chapa Dilma-Temer no TSE. O autor mostra como o perfil do financiamento eleitoral no Brasil foi se concentrando em grandes doadores, que seguem uma lógica estritamente empresarial – muito mais que ideológica. Baseado em dados sobre participação em frentes parlamentares, propositura de emendas e posicionamento nas principais votações, Carazza analisa como os eleitos tendem a retribuir as doações recebidas das grandes empresas. Por fim, o autor apresenta alternativas para baratear nossas eleições, combater práticas como o “caixa dois” e diminuir a influência econômica em nossa democracia.",
+                "https://images-na.ssl-images-amazon.com/images/I/81m8KPGdZTL.jpg",
                 categoryRepository.getById(18)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Política",
+                44.99,
+                "Esta obra primordial da cultura clássica encanta a todos os que buscam compreender a formação, a estrutura e o desenvolvimento da vida em comunidade. Para Aristóteles, o principal motivo desta associação humana é o bem comum, capaz de proporcionar felicidade aos seus cidadãos e prosperidade à cidade. A instituição de leis e a sua observância são fundamentais para que a cidade seja uma associação humana feliz e próspera. Inclui apêndice com a tradução de “Da Monarquia, Democracia e Oligarquia”, de Plutarco.",
+                "https://images-na.ssl-images-amazon.com/images/I/71uFX2qb9rL.jpg",
                 categoryRepository.getById(18)));
 
         // - Moda (19)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "História social da moda",
+                64.99,
+                "A história do vestuário diz muito sobre a sociedade e seu tempo. Nesse livro, a autora traça um interessante panorama da origem da moda e de sua evolução ao longo da história. Conta, entre outras coisas, como os vestuários masculino e feminino passaram a diferenciar-se, como a Igreja tentou conter os modismos na Idade Média e por que só pode existir moda em sociedades cuja estrutura não é estática. Fundamental para entender o espaço cada vez maior que a moda ocupa hoje na nossa sociedade.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1cpZZHRkKL.jpg",
                 categoryRepository.getById(19)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Vogue on Coco Chanel",
+                81.06,
+                "In Vogue on Coco Chanel, acclaimed fashion writer and commentator Bronwyn Cosgrave traces the story of Coco Chanel's iconic designs and glamorous, racy life. Featuring original illustrations and images from celebrated photographers, such as Cecil Beaton, the book provides a completely fresh look at the fashion designer, who is arguably 'the most influential female designer of the twentieth century'. Coco Chanel pioneered classic easy-to-wear fashion for the modern woman. Perhaps her most important contribution to the fashion world was the simple, much-imitated 'little black dress', which made its debut in 1926. Other landmark creations include the Chanel suit and the quilted handbag. It is a testament to her lasting influence that these legendary designs remain as popular today as when they first appeared.",
+                "https://images-na.ssl-images-amazon.com/images/I/71zQw3UM2ZL.jpg",
                 categoryRepository.getById(19)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Dior for ever",
+                156.05,
+                "Sempre lançando tendências, Christian Dior buscou inspiração nas flores e nas curvas do corpo feminino e aliou delicadeza em suas criações. Desde a elaboração do New Look, a marca Dior tornou-se sinônimo de elegância, e personalidades do mundo todo passaram a desejar se vestir com a grife. Por meio de fotos e fac-símiles de croquis, convites de desfile, catálogos e material de divulgação, este livro apresenta a pesquisa realizada pela historiadora de moda Catherine rmen de quase setenta anos da maison Dior, mostrando a construção e a evolução da marca até as roupas assinadas por Raf Simons.",
+                "https://images-na.ssl-images-amazon.com/images/I/710KzyogC8L.jpg",
                 categoryRepository.getById(19)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Questão de estilo: 20 itens icônicos que mudaram a história da moda",
+                30.15,
+                "Este livro traz vinte ícones criados por artistas excepcionais e que resumem, em linhas sucintas e refinadas, as características de um ?clássico de grife?. São vinte referências de moda e estilo, expressas em várias formas e cores. Alguns artigos são exclusivos, outros fazem parte do nosso cotidiano; todos, entretanto, são marcados por histórias de coragem e empreendedorismo. Questão de estilo tem como objetivo, assim, definir o que é essencial na moda.",
+                "https://images-na.ssl-images-amazon.com/images/I/81sZfz5YnAL.jpg",
                 categoryRepository.getById(19)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Evangelho de Coco Chanel: Lições de Vida da Mulher Mais Elegante do Mundo",
+                21.10,
+                "Chanel não foi somente a mulher que criou e imortalizou o “pretinho básico”, também popularizou as calças femininas e roupas fáceis e práticas que deixavam as mulheres chiques e confortáveis. Com sua personalidade forte e decidida, elegante e passional, de um jeito totalmente francês, Coco conduziu as mulheres diretamente para uma nova era. O Evangelho de Coco Chanel é um cativante olhar sobre o estilo, a fama e o talento de um dos maiores ícones da moda. Dividindo a biografia de Chanel em capítulos temáticos – como elegância, paixão, dinheiro, sucesso – que sutilmente ensinam lições de vida, com comentários divertidos e maravilhosas ilustrações, Karen Karbo irá inspirar os leitores com uma história impressionante de reinvenção, confiança e determinação.",
+                "https://images-na.ssl-images-amazon.com/images/I/71EJeI5LfBL.jpg",
                 categoryRepository.getById(19)));
 
         // - Turismo (20)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Lonely Planet Leste Europeu",
+                82.40,
+                "Quem já leu ou viu Drácula, de BramStoker, pode imaginar as emoções que aguardam o viajante na misteriosa Transilvânia, na Romênia. Ir até essa lendária região de trem, cruzando os majestosos Cárpatos, rios de águas azuis e castelos medievais, já é uma senhora aventura. E apenas uma das muitas experiências inesquecíveis que você pode viver nos 21 países minuciosamente explorados no novo guia Lonely Planet: Leste Europeu, publicado neste mês pela Globo Livros. Em suas mais de 900 páginas, o livro percorre Rússia, Estônia, Letônia, Lituânia, Belarus, Polônia, Ucrânia, República Tcheca, Eslováquia, Moldávia, Hungria, Romênia, Eslovênia, Croácia, Bósnia e Herzegovina, Montenegro, Sérvia, Bulgária, Kosovo, Macedônia e Albânia, mostrando as suas principais atrações e os melhores lugares para se hospedar, comer e passear. Há um capítulo detalhado dedicado a cada país, além de seções gerais que ajudam o leitor a decidir o seu roteiro. Atrações não faltam: do museu Hermitage, um dos mais celebrados do mundo, na cidade russa de São Pertersburgo, às praias do mar Negro, na Bulgária, o viajante não se cansará das belezas de uma região esculpida ao longo de séculos de uma história riquíssima de impérios magnânimos, guerras impiedosas, comunismo e muita, muita cultura. A arquitetura, por si só, já vale a viagem: muralhas da Idade Média dividem espaço com bairros otomanos, como o charmoso Mostar, na Bósnia e Herzegovina, e a sofisticação do estilo art nouveau, que é um dos destaques de Riga, capital da Letônia. Na Albânia, você pode visitar a “cidade das mil janelas”, a bucólica Berat. E aquele jeitão de Velho Mundo? Rume para a espetacular Dubrovnik, na Croácia. Não pense, porém, que é preciso ser fã de história e arte para aproveitar a região. Se você faz o tipo esportista, pode pedalar pelo istmo da Curlândia, na Lituânia, e ganhar um bom causo para contar pelo resto da vida. Caminhadas pelos Tatras, na Eslováquia, que estão entre as mais altas montanhas dos Cárpatos, é outra opção sob medida para os que buscam adrenalina. Amantes de passeios ao ar livre ficarão impressionados com a generosidade da mãe natureza nos Bálcãs: não percam as paisagens surreais de Montenegro, como a Baía de Kotor. Para os que gostam de agito, que tal badalar na Riviera Croata, pontilhada por iates, ou aproveitar as Noites Brancas do verão russo? Moscou, com sua magnífica Praça Vermelha, a polonesa Cracóvia e, claro, Praga, a “Paris do Leste”, não deixarão você descansar nem um minuto. Tallinn, na Estônia, desponta como o próximo destino da moda. E Budapeste, cortada pelo famoso rio Danúbio, tem balada e muito romantismo – fica a gosto do freguês. Ao final de cada capítulo, na seção “Entenda”, todos os países ganham um resumo de sua trajetória, para que o leitor aprenda o básico sobre cada destino. No utilíssimo “Guia de Sobrevivência”, você se informa sobre o funcionamento de hotéis, restaurantes e do transporte público, as formas de pagamento aceitas, os feriados nacionais, os possíveis cuidados que deve tomar e outros dados práticos que facilitam, e muito, o planejamento. Escrito por 15 autores diferentes com larga vivência na região, o guia é um companheiro e tanto para o viajante, que se sentirá mais seguro, informado e, sobretudo, ansioso para desvendar os encantos dessa Europa mais longínqua.",
+                "https://images-na.ssl-images-amazon.com/images/I/41XBcjs7FvL.jpg",
                 categoryRepository.getById(20)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Turismo: Princípios, Práticas e Filosofia",
+                60.00,
+                "O mais importante texto introdutório sobre o assunto, ampliado e atualizado, aborda a área de turismo e viagem do ponto de vista global, oferecendo insights sobre as forças econômicas, políticas e sociais que agem sobre o turismo.",
+                "https://images-na.ssl-images-amazon.com/images/I/81YeV5d8GHL.jpg",
                 categoryRepository.getById(20)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Descubra a Europa",
+                64.90,
+                "O guia Lonely Planet Descubra a Europa é o seu passaporte para as melhores atrações, com dicas atualizadas de especialistas e tudo o que há de imperdível no Velho Mundo, além de locais pouco conhecidos que que esperam por você nos mais incríveis países da Europa. Passeie pelos corredores de Versalhes, admire os afrescos da Capela Sistina, saboreie um autêntico champanhe na região francesa de Champagne (onde mais?), tome uma cerveja em Munique e experimente chocolates em Bruxelas; vá a todos os pontos turísticos mais icônicos do continente, como a Torre Eiffel, em Paris, ou o Coliseu, em Roma, e conheça outros destinos maravilhosos, como a britânica Bath e a austríaca Salzburg. Volte no tempo enquanto navega pelos canais de Veneza ou de Amsterdã, encante-se com a herança medieval de Praga e com a magnífica Alhambra, na cidade espanhola de Granada, e os castelos à beira do rio Reno e do Danúbio. Sem falar, é claro, da grandiosa Acrópole de Atenas. Baladeiros de plantão saberão onde desembarcar: em Londres, capital da vida noturna, ou, quem sabe, na Old Town de Edimburgo, onde não faltam pubs. Já os esportistas vão correr para as estações de esqui de Chamonix, na França, ou de Zermatt, na Suíça – e também às águas cristalinas das Ilhas Gregas e da costa italiana. Tudo isso com seu fiel companheiro de viagem! Para ajudá-lo a fazer boas escolhas e fugir das ciladas turísticas, Descubra a Europa lista sugestões de hotéis, bares, restaurantes e até dos meios de transportes mais adequados para cada situação. Mapas coloridos mostram direitinho onde fica cada lugar. Descubra o melhor da Europa e comece sua aventura agora mesmo!",
+                "https://images-na.ssl-images-amazon.com/images/I/912i08aXZxL.jpg",
                 categoryRepository.getById(20)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "World Travel: An Irreverent Guide",
+                107.95,
+                "Anthony Bourdain saw more of the world than nearly anyone. His travels took him from the hidden pockets of his hometown of New York to a tribal longhouse in Borneo, from cosmopolitan Buenos Aires, Paris, and Shanghai to Tanzania's utter beauty and the stunning desert solitude of Oman's Empty Quarter--and many places beyond. In World Travel, a life of experience is collected into an entertaining, practical, fun and frank travel guide that gives readers an introduction to some of his favorite places--in his own words. Featuring essential advice on how to get there, what to eat, where to stay and, in some cases, what to avoid, World Travel provides essential context that will help readers further appreciate the reasons why Bourdain found a place enchanting and memorable. Supplementing Bourdain's words are a handful of essays by friends, colleagues, and family that tell even deeper stories about a place, including sardonic accounts of traveling with Bourdain by his brother, Christopher; a guide to Chicago's best cheap eats by legendary music producer Steve Albini, and more. Additionally, each chapter includes illustrations by Wesley Allsbrook. For veteran travelers, armchair enthusiasts, and those in between, World Travel offers a chance to experience the world like Anthony Bourdain.",
+                "https://images-na.ssl-images-amazon.com/images/I/91vF8dQLyaS.jpg",
                 categoryRepository.getById(20)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Coleção 50 Lugares Espetaculares Volume 1: Brasil",
+                19.90,
+                "Os melhores destinos de viagem para você ver, se encantar e arrumar as malas No primeiro volume da Coleção 50 Lugares Espetaculares: Brasil, você encontrará paisagens fascinantes, lazer e diversão, história e cultura. Confira alguns lugares: - Fernando de Noronha - Jericoacoara - Lençóis Maranhenses - Porto de Galinhas - Olinda - Pipa - Maragogi - Morro de São Paulo - E muito mais!",
+                "https://images-na.ssl-images-amazon.com/images/I/61-QyN8oBUS.jpg",
                 categoryRepository.getById(20)));
 
         // - Sociologia (21)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Sociologia do desconhecimento: Ensaios sobre a incerteza do instante",
+                50.38,
+                "O estudo sociológico do desconhecimento é relativo ao modo de conhecer-se da sociedade contemporânea, uma sociedade estruturalmente caracterizada por fatores ocultos necessários à sua reprodução como sociedade para a atualidade do capital. É o preço que, sem saber, a sociedade paga pelo modo capitalista de produzir e pelo modo capitalista de viver e de pensar. A sociologia do desconhecimento abordada por José de Souza Martins é a sociologia do conhecimento de Karl Mannheim aplicada à realidade social dominada pela falsa consciência sem a qual a sociedade capitalista não pode se reproduzir.",
+                "https://images-na.ssl-images-amazon.com/images/I/41lU+ucGa9L.jpg",
                 categoryRepository.getById(21)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Sociologia clássica: Marx, Durkheim e Weber",
+                36.15,
+                "Este livro apresenta o pensamento dos fundadores da sociologia a partir de três eixos básicos: teoria sociológica; teoria da modernidade; teoria política: problemas e desafios da realidade social. Este método, além de permitir uma análise comparativa das teorias de Marx, Durkheim e Weber, possibilita também uma compreensão da sociologia enquanto ciência e uma reflexão sobre a natureza e as perspectivas da vida social em tempos modernos. Retomando a visão destes autores, o leitor é convidado a exercitar sua 'imaginação sociológica', adentrando, assim, no rico debate sociológico sobre as diferentes maneiras, métodos e perspectivas de pesquisa e interpretação da sociedade.",
+                "https://images-na.ssl-images-amazon.com/images/I/71lmcSgzMqL.jpg",
                 categoryRepository.getById(21)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Conceitos essenciais da Sociologia - 2ª ediçao",
+                44.90,
+                "Este livro, agora lançado em edição revista, é uma espécie de manual contemporâneo da Sociologia, apresentando 67 de seus conceitos essenciais. Com uma linguagem clara e concisa, Anthony Giddens e Philip W. Sutton explicam terminologias e ideias fundamentais dessa disciplina, bem como suas origens e suas aplicações contemporâneas, obtendo, ao final, uma obra que fornece um panorama atualizado dos desenvolvimentos da Sociologia nos últimos 150 anos.",
+                "https://images-na.ssl-images-amazon.com/images/I/91XCyC5CCBL.jpg",
                 categoryRepository.getById(21)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Lições de Sociologia: Física dos Costumes e do Direito",
+                37.79,
+                "Esta obra póstuma, publicada pela primeira vez em 1950, foi elaborada a partir da reunião de diversos manuscritos inéditos de cursos de sociologia – apresentados sob a forma de conferências – ministrados por Émile Durkheim entre 1890 e 1900 na Universidade de Bordeaux, e repetidos na Sorbonne em 1904 e 1912. Estes estudos revelam o pensamento político de Durkheim, e apresentam o entendimento do autor sobre a física dos costumes e do direito.",
+                "https://images-na.ssl-images-amazon.com/images/I/51Galk93AcL.jpg",
                 categoryRepository.getById(21)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O Suicídio: Estudo de Sociologia",
+                49.99,
+                "Considerado uma das obras-mestras da Sociologia, este clássico estudo de Durkheim apresenta o suicídio como um fenômeno cujas origens encontram-se fundamentadas na própria sociedade. Sem todavia abandonar a influência exercida pelo fator psicológico, o autor propõe uma ruptura com relação ao entendimento de ser este o princípio primordialmente desencadeador e gerador de influência na produção do ato, e demonstra ser possível estudá-lo e compreendê-lo de maneira mais ampla a partir da compreensão da sociedade em si, de sua estruturação e de todas as determinações previamente impostas ao indivíduo por essa instituição. Dentre os fatores preponderantes para o suicídio, Durkheim analisa detidamente estado civil, opção religiosa e integração social, e o caracteriza em três tipos essenciais: egoísta, altruísta e anômico. Nesta obra, o autor defende veementemente o caráter sociológico inerente ao suicídio, interpretando-o como uma tendência já presente na sociedade, à qual o indivíduo, se distante do seu ponto central de equilíbrio, acaba por sucumbir, trazendo-a à manifestação.",
+                "https://images-na.ssl-images-amazon.com/images/I/71PbT8lJvWL.jpg",
                 categoryRepository.getById(21)));
 
         // - Enciclopédias (22)
