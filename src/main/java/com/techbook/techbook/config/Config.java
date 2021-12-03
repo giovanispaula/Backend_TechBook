@@ -816,38 +816,38 @@ public class Config implements CommandLineRunner {
 
         // - Enciclopédias (22)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Enciclopedia Do Mundo Animal",
+                129.00,
+                "Enciclopédia ilustrada com muitas das espécies existentes no Reino Animal, acompanhadas de fotografias e fichas explicativas com seu nome comum, científico, área de distribuição e estado de conservação. Mais de 1.500 fotografias ilustram cada espécie, com especial destaque para algumas delas como o tigre, o tubarão-branco e a borboleta-monarca entre outras, sobre as quais são explicadas todas as suas características físicas e comportamentais.",
+                "https://images-na.ssl-images-amazon.com/images/I/51yS76rfX0L.jpg",
                 categoryRepository.getById(22)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O livro do carro: Enciclopédia visual",
+                57.08,
+                "Amantes da arte automobilística, loucos por motores, aficionados por design, curiosos e saudosistas certamente vão se apaixonar por esta coletânea dos veículos que fizeram história – e quanta história! Em O livro do carro, o leitor pode percorrer a longa e fascinante trajetória da indústria automobilística com incríveis detalhes visuais, além de acompanhar a análise de fatores históricos e econômicos que influenciaram o mercado automobilístico década a década, desde o surgimento do conceito de transporte pessoal criado por Karl Benz em 1885 até os modelos híbridos e menos poluentes do século XXI.",
+                "https://images-na.ssl-images-amazon.com/images/I/81f-6SukNEL.jpg",
                 categoryRepository.getById(22)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Enciclopédia Show do Milhão Especial Maravilhas do Mundo",
+                59.90,
+                "Especial Maravilhas do Mundo traz aos leitores uma preciosa referência das mais espetaculares construções já feitas pelo ser humano e dos mais incríveis lugares esculpidos pela natureza ao longo de milhões de anos. São locais de rara beleza que vão levá-lo a uma viagem pelo tempo e pelo espaço, com o apoio da História, da Geografia e das Ciências Naturais. Este livro divide-se em três partes: \"Maravilhas no Mundo\", \"Maravilhas no Brasil\" e \"As Sete Maravilhas da Antiguidade\". A lista segue a ordem alfabética. Nas páginas com moldura marrom estão as maravilhas construídas, enquanto as naturais aparecem com moldura azul. Para cumprir essa jornada inesquecível, o livro mostra todos os lugares por meio de imagens fascinantes e textos de fácil leitura. Bom proveito e boa viagem!",
+                "https://images-na.ssl-images-amazon.com/images/I/61zba-ZU8AL.jpg",
                 categoryRepository.getById(22)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Enciclopédia da bruxaria",
+                35.69,
+                "Este é um livro de Bruxaria escrito por uma bruxa praticante. Trata-se de uma enciclopédia completa a ser usada pelos estudiosos deste assunto tão vasto e fascinante por meio de verbetes explicativos que vão de termos ligados à Bruxaria a uma síntese biográfica a respeito dos grandes nomes do mundo da magia e do ocultismo, como Aleister Crowley, Charles Leland, Gerald Gardner, John Dee e Margaret Murray. A Bruxaria é tão antiga quanto a existência da raça humana e, atualmente, é praticada de forma ativa por pessoas de todas as classes. Para seus seguidores, ela vai além de seus encantos e feitiços, ou até mesmo de suas reuniões secretas e seus rituais, trata-se de uma filosofia e uma forma de vida, a forma de religião mais antiga dentre as que apregoam a magia e a veneração da natureza. A renomada autora, Doreen Valiente, estuda o oculto há mais de trinta anos. Ela foi iniciada em quatro facções diferentes do culto à Bruxaria que estão surgindo na Grã-Bretanha. Desde que o último Ato da Bruxaria foi revogado em 1951, o ressurgimento do interesse público pela Bruxaria tem sido o assunto de inúmeras controvérsias. Este livro tem a intenção de ser uma contribuição séria ao estudo de um assunto que ficou no obscuro por muito tempo devido ao preconceito e ao sensacionalismo.",
+                "https://images-na.ssl-images-amazon.com/images/I/A1gyVESwbEL.jpg",
                 categoryRepository.getById(22)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Básico: Enciclopédia de Receitas do Brasil",
+                77.70,
+                "'Básico', o novo livro de Ana Trajano, apresenta a cozinha brasileira viva em várias versões. São 512 receitas, resultantes dos dezenove anos de andanças pelo nosso país e de muitas pesquisas da autora sobre a nossa culinária de raiz. Ele começa com um Tira-gosto, capítulo de petiscos que dá boas-vindas ao leitor da mesma maneira que recebemos nossos amigos em casa. Depois vêm os pratos principais, Mistura, seguidos pelos acompanhamentos que ajudam dar Sustância ao prato. Em seguida, as Sobremesas que revela a Fartura da doçaria brasileira e por fim, os Pães e Quitandas que acompanham nosso tradicional cafezinho. O livro revela toda a diversidade gastronômica brasileira com belíssimas fotos de encher os olhos. A obra convida a todos a manter e a resgatar a autoestima de nossa cozinha e incentivar a presença dessa cozinha cada vez mais nos cursos, pesquisas e bibliografias, torcendo para que ingredientes como azeite de dendê, manteiga de garrafa e boas farinhas de mandioca, entre outros, abandonem o rótulo de “regionais” para tornar- se, como o arroz e o feijão, parte de nosso dia a dia.",
+                "https://images-na.ssl-images-amazon.com/images/I/61SZOgwcZ1L.jpg",
                 categoryRepository.getById(22)));
 
         // - Economia (23)
