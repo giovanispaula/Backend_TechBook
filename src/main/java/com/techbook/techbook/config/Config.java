@@ -852,38 +852,45 @@ public class Config implements CommandLineRunner {
 
         // - Economia (23)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Economia: O que é, para que serve, como funciona",
+                53.05,
+                "Um livro indispensável para quem deseja entender melhor os desafios do mundo em que vivemos Sem gráficos, equações ou jargões, o renomado economista e professor Charles Wheelan apresenta tudo o que você precisa saber sobre economia e nunca conseguiu compreender. Lançando mão de exemplos cotidianos, Wheelan esclarece as noções e conceitos básicos dessa ciência fascinante. Tudo isso de maneira fácil, prática e muito bem-humorada. Aqui, o leitor entenderá os mecanismos fundamentais e os problemas básicos da economia, tais como: - Por que há inflação?- Que papel governo, bancos centrais e comércio mundial exercem nas economias locais? - Qual o poder dos incentivos públicos?- Por que não foi possível evitar a crise financeira de 2008?- Quais os prós e os contras da globalização? Um livro essencial para estudantes de economia e também para os que simplesmente desejam compreender melhor os desafios do mundo em que vivemos. Com nova capa, este livro é uma reedição de Economia nua e crua.",
+                "https://images-na.ssl-images-amazon.com/images/I/81rAXJAhgDS.jpg",
                 categoryRepository.getById(23)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Fundamentos de economia",
+                58.98,
+                "Fundamentos de Economia é um livro dirigido a estudantes e profissionais das áreas de Ciências Humanas em geral, que fornece uma visão abrangente das principais questões econômicas de nosso tempo. Trata-se de um livro introdutório de Economia Aplicada, no qual os autores explicam com clareza e concisão conceitos e problemas econômicos fundamentais, de forma que os estudantes possam ter melhor compreensão da realidade econômica. A obra apresenta temas como a evolução da Ciência Econômica, Economia e Direito, Teoria Microeconômica (Demanda, oferta, mercado, produção e custos), Política Macroeconômica, Inflação, Setor Público e Crescimento e desenvolvimento econômico. Com abordagem didática, traz, ainda, exercícios e glossário com os principais verbetes da área.",
+                "https://images-na.ssl-images-amazon.com/images/I/81bUci6nSyL.jpg",
                 categoryRepository.getById(23)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Crash: Uma breve história da economia",
+                23.87,
+                "Dinheiro é um mecanismo engenhoso: permite que a manicure compre pão sem ter de fazer as unhas do padeiro. Sim, se você prestar atenção, vai ver que notas, moedas e os números que aparecem no saldo da sua conta são entidades abstratas, quase mágicas. Elas são feitas de tempo. Ao receber dinheiro de alguém, você está ganhando partículas do tempo que esse alguém dedicou a outra tarefa, para outra pessoa. Genial. Mas o que o dinheiro tem de brilhante a economia tem de insana. Na Roma Antiga, inventaram um congelamento de preços desastroso – no Brasil também. Na Holanda do século 17, uma bolha especulativa fez com que uma flor valesse o preço de uma casa. Em 2017, meia dúzia de bitcoins compravam um apartamento. Crash faz um passeio por 12 mil anos de civilização e traça paralelos entre o passado e o presente para explicar como funcionam as moedas, a inflação, o câmbio, o indo e vindo infinito de euforia e depressão na economia. E não menos importante: decifra o universo das ações, das criptomoedas, do Tesouro Direto, dos fundos de investimento. Também elucida as estratégias dos grandes investidores e as picaretagens dos aproveitadores. Com este livro, que chega à sua terceira versão, revista e atualizada para a realidade da terceira década do século 21, você vai entender como a história, a psicologia e até a biologia explicam a saga do dinheiro. E saber melhor o que fazer com o seu.",
+                "https://images-na.ssl-images-amazon.com/images/I/61r3V8iuZVL.jpg",
                 categoryRepository.getById(23)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O investidor inteligente",
+                38.28,
+                "Maior consultor de investimentos do século XX, Benjamin Graham ensinou e inspirou milhares de pessoas ao redor do mundo. Seu conceito de “valor de investimento” protege os investidores de cometer erros substanciais e os ensina a desenvolver estratégias de longo prazo. Isso fez com que O investidor inteligente se tornasse a bíblia do mercado de ações desde sua primeira publicação, em 1949. A partir daí, as evoluções do mercado provaram a sabedoria das estratégias de Graham. Esta edição conta ainda com atualizações e apontamentos do jornalista Jason Zweig, além de prefácios de Warren Buffett e Armínio Fraga.",
+                "https://images-na.ssl-images-amazon.com/images/I/71XhGdYgoTL.jpg",
                 categoryRepository.getById(23)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O jeito Warren Buffett de investir: Os segredos do maior investidor do mundo",
+                26.41,
+                "Warren Buffett é o mais famoso investidor de todos os tempos e um dos mais admirados gestores da atualidade - além, é claro, de um dos homens mais ricos do mundo. Como ele se tornou tão bem-sucedido com a compra de ações e empresas? E, mais importante, que ensinamentos ele pode oferecer a quem deseja investir na Bolsa?",
+                "https://images-na.ssl-images-amazon.com/images/I/81gLXSghkLS.jpg",
+                categoryRepository.getById(23)));
+
+        bookRepository.save(new Book(
+                "O andar do bêbado: Como o acaso determina nossas vidas",
+                31.91,
+                "Best-seller nacional e internacional, com cerca de 180 mil exemplares vendidos no Brasil! Esta edição comemorativa celebra os 10 anos de lançamento do best-seller O andar do bêbado, do físico e matemático Leonard Mlodinow. Não estamos preparados para lidar com o aleatório e por isso não percebemos como o acaso interfere em nossas vidas. Nesse livro notável, Mlodinow combina os mais diferentes exemplos para mostrar que as notas escolares, diagnósticos médicos, sucesso de bilheteria e resultados eleitorais são, como muitas outras coisas, determinados por eventos imprevisíveis. Este livro instigante pões em xeque tudo que acreditamos saber sobre como o mundo funciona. E, assim, nos ajuda a fazer escolhas mais acertadas e a conviver melhor com os fatores que não podemos controlar. 'Um guia maravilhoso e acessível sobre como o aleatório afeta nossas vidas' Stephen Hawking 'Mlodinow escreve num estilo leve, intercalando desafios probabilísticos com perfis de cientistas... O resultado é um curso intensivo, de leitura agradável, sobre aleatoriedade e estatística.' George Johnson, New York Times",
+                "https://images-na.ssl-images-amazon.com/images/I/81KdmY4M-7L.jpg",
                 categoryRepository.getById(23)));
 
         // - Biologia (24)
