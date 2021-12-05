@@ -35,4 +35,13 @@ public class Profile implements Serializable {
         this.mail = mail;
         this.description = description;
     }
+
+    public Profile(String fullName, String urlGit, String urlLinkedin, String urlPhoto, String mail, String description) {
+        this.fullName = fullName;
+        this.urlGit = urlGit;
+        this.urlLinkedin = urlLinkedin;
+        this.urlPhoto = urlPhoto;
+        this.mail = mail;
+        this.description = description;
+    }
 }

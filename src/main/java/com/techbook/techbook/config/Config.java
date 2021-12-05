@@ -13,6 +13,9 @@ import org.springframework.stereotype.Component;
 public class Config implements CommandLineRunner {
 
     @Autowired
+    private IProfileRepository profileRepository;
+
+    @Autowired
     private IBookRepository bookRepository;
 
     @Autowired
@@ -20,6 +23,18 @@ public class Config implements CommandLineRunner {
 
     @Override
     public void run(String...args) throws Exception {
+
+//        this.fullName = fullName;
+//        this.urlGit = urlGit;
+//        this.urlLinkedin = urlLinkedin;
+//        this.urlPhoto = urlPhoto;
+//        this.mail = mail;
+//        this.description = description;
+
+        profileRepository.save(new Profile("Giovani Silva", "https://github.com/giovanispaula", "", "", "giovannispaula@gmail.com", ""));
+        profileRepository.save(new Profile("Marcos Spano", "https://github.com/marcosspano", "", "", "e.marcosspano@gmail.com", ""));
+        profileRepository.save(new Profile("Nathalia Vieira", "", "", "", "naahviera@gmail.com", ""));
+        profileRepository.save(new Profile("Túlio Xavier", "https://github.com/tuliopxavier", "", "", "tuliopxavier@gmail.com", ""));
 
         categoryRepository.save(new Category("TECNOLOGIA", "Tecnologia"));
         categoryRepository.save(new Category("DIREITO", "Direito"));
@@ -49,6 +64,7 @@ public class Config implements CommandLineRunner {
         categoryRepository.save(new Category("BOTANICA", "Botânica"));
         categoryRepository.save(new Category("ARQUEOLOGIA", "Arqueologia"));
         categoryRepository.save(new Category("CULINARIA", "Culinária"));
+        categoryRepository.save(new Category("ASTROLOGIA", "Astrologia"));
 
         // - Tecnologia (01)
         bookRepository.save(new Book(
@@ -895,183 +911,222 @@ public class Config implements CommandLineRunner {
 
         // - Biologia (24)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Bio - Volume Único",
+                253.71,
+                "Livro didático direcionado aos alunos do Ensino Médio e livro de testes(ENEM). ",
+                "https://images-na.ssl-images-amazon.com/images/I/51S7ksBGUJL.jpg",
                 categoryRepository.getById(24)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "50 ideias de biologia que você precisa conhecer",
+                27.76,
+                "Por que as espécies evoluem? Como certas características passam de uma geração para outra? Todos os organismos são feitos de células? O que nos torna humanos? Escrito pelo cientista e jornalista premiado J.V. Chamary, 50 ideias de biologia que você precisa conhecer é o guia definitivo para essas e outras questões essenciais da biologia explicadas em 50 artigos curtos e envolventes que cobrem desde as teorias clássicas até as pesquisas mais recentes. Dos mistérios do sexo e do sono até a seleção natural, a imunidade e a genética, este livro abrirá os seus olhos para os processos vitais que garantem a vida na Terra, incluindo como os genes controlam o crescimento e o comportamento dos seres vivos, como o corpo se desenvolve a partir de uma única célula e como as forças ambientais criam a diversidade de espécies através da evolução. Por meio de conceitos-chave explicados em termos simples e com a ajuda de diagramas e linhas do tempo que mostram as principais descobertas científicas no seu contexto histórico, o mais novo livro da premiada coleção 50 ideias proporciona um panorama completo de um dos assuntos mais fascinantes, que vem assombrando cientistas ao longo dos séculos: o estudo da vida.",
+                "https://images-na.ssl-images-amazon.com/images/I/81G9MSD5dqL.jpg",
                 categoryRepository.getById(24)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Biologia Molecular da Célula",
+                340.00,
+                "À medida que a quantidade de informações em biologia aumenta exponencialmente, é cada vez mais importante que os livros tenham a capacidade de transformar grandes volumes de conhecimento científico em princípios concisos e conceitos duradouros. Assim como em edições anteriores, Biologia molecular da célula atinge este objetivo com seu texto claro e transparente, aliado a ilustrações de alta qualidade e explicações de abordagens matemáticas necessárias para a análise quantitativa das células, moléculas e sistemas. Esta edição foi revisada e atualizada extensivamente a partir das pesquisas mais recentes, oferecendo uma excelente estrutura para o ensino e o aprendizado da biologia celular.",
+                "https://images-na.ssl-images-amazon.com/images/I/81nxCi9heyL.jpg",
                 categoryRepository.getById(24)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A origem das espécies: A origem das espécies por meio da seleção natural ou a preservação das raças favorecidas na luta pela vida",
+                51.84,
+                "Ainda considerado como um dos mais inovadores e desafiantes tratados biológicos já escritos, A origem das espécies, com sua abordagem sobre os processos evolutivos, chocou grande parte do mundo ocidental, quando foi lançado em 1859. Nesta nova edição, com ilustrações em cada capítulo e prefácio de Nélio Bizzo, especialista no assunto e professor da Universidade de São Paulo, os leitores terão contato com a mais importante obra sobre Biologia jamais escrita.",
+                "https://images-na.ssl-images-amazon.com/images/I/81X706V7XsL.jpg",
                 categoryRepository.getById(24)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Livro mundo animal - Animais brasileiros",
+                16.92,
+                "A grande variedade de peixes tropicais; o incrível mundo dos anfíbios, os primeiros animais habitantes do ambiente terrestre; os répteis, seres dominantes durante milhões de anos em um ambiente que impulsionou a evolução e o desenvolvimento das aves. Estas e outras curiosidades estão reunidas neste livro, que traz uma seleção de fotos em excelente qualidade, além de informações sobre as espécies nativas dos biomas do Brasil. Eis uma obra necessária e atual para reforçar seus conhecimentos e incentivá-lo a promover a preservação da biodiversidade.",
+                "https://images-na.ssl-images-amazon.com/images/I/51YhcBJ9SRL.jpg",
                 categoryRepository.getById(24)));
 
         // - Astronomia (25)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Cosmos",
+                44.90,
+                "Escrito por um dos maiores divulgadores de ciência do século XX, Cosmos retraça 14 bilhões de anos de evolução cósmica, explorando tópicos como a origem da vida, o cérebro humano, hieróglifos egípcios, missões espaciais, a morte do sol, a evolução das galáxias e as forças e indivíduos que ajudaram a moldar a ciência moderna. Numa prosa transparente, Carl Sagan revela os segredos do planeta azul habitado por uma forma de vida que apenas começa a descobrir sua própria identidade e a se aventurar no vasto oceano do espaço sideral. Aqui, o tratamento dos temas científicos está sempre imbricado com outros campos de estudo tradicionais, como história, antropologia, arte e filosofia. Publicado pela primeira vez em 1980, Cosmos reúne alguns dos conhecimentos mais avançados da época sobre a natureza, a vida e o Universo ― e se mantém até hoje como uma das mais importantes obras de divulgação científica da história. Embora diversas descobertas fascinantes tenham ocorrido nos últimos quarenta anos, o tema central deste livro nunca estará desatualizado: nosso fascínio pelo conhecimento e a prática da ciência como atividade cultural.",
+                "https://images-na.ssl-images-amazon.com/images/I/71zVhbnKmfL.jpg",
                 categoryRepository.getById(25)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Buracos Negros: Palestra da BBC Reith Lectures",
+                13.90,
+                "Em palestras emblemáticas, o lendário físico discorre sobre as complexidades que cercam um dos mais fascinantes mistérios do universo. Em 2016 Stephen Hawking participou da série de palestras BBC Reith Lectures, promovida pela rede de televisão britânica BBC e transmitida pela rádio BBC 4. A cada ano uma figura proeminente em sua área é convidada a discorrer sobre temas relevantes. Naqueles meses de janeiro e fevereiro, Hawking falou sobre um assunto que há décadas ocupa lugar de destaque em suas pesquisas: os buracos negros. Em duas exposições memoráveis, um dos maiores gênios da atualidade argumenta que, se pudéssemos compreender como os buracos negros funcionam e como eles desafiam a natureza do espaço e do tempo, seríamos capazes de desvendar os segredos do universo. Insights de toda uma vida são apresentados com a lucidez e a já conhecida verve cômica de Hawking, acrescidos de notas explicativas que situam o leitor nos trechos mais cruciais. Enquanto a maioria dos especialistas se conforma com o fato de trabalhar com temas praticamente ininteligíveis para o público geral, Stephen Hawking tomou para si o papel de grande paladino da divulgação científica — e nesse pequeno livro, mais uma vez, extrapola todas as expectativas. Stephen Hawking já vendeu mais de 150 mil exemplares pela Intrínseca. O livro conta com introdução e notas de David Shukman, editor de ciências da BBC, e ilustrações úteis e divertidas, que complementam a maneira bem-humorada como Hawking expõe suas ideias. 'Hawking consegue explicar algumas das questões mais complexas da física cósmica com uma combinação perfeita de clareza e sagacidade.' — The Observer",
+                "https://images-na.ssl-images-amazon.com/images/I/51-1d08f1dS.jpg",
                 categoryRepository.getById(25)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Astronomia Para Leigos",
+                51.98,
+                "Você sabe a diferença de uma vermelha gigante e uma anã branca? De asteroides a buracos negros, esse guia de fácil compreensão te leva em uma grande viagem ao universo, te mostrando como conseguir aproveitar ao máximo sua observação estelar, visitas a planetários e outras ótimas atividades astronômicas. O livro também mostra descobertas recentes e novos sites astronômicos… Descubra como: • Aproveitar o céu do seu quintal • Identificar planetas e estrelas • Explorar nosso sistema solar, a Via Láctea e além • Entender o Big Bang, quasares, antimatéria e mais •Juntar-se à SETI, Pesquisa por Inteligência Extraterrestre Aprenda a: • Nomear estrelas e constelações • Usar as ferramentas para observar o céu • Desmistificar o sistema solar • Definir buracos negros e quasares, e muito mais Neste livro você encontrará: • Explicações de fácil entendimento • Informações fáceis de localizar e passo a passo • Ícones e outros recursos de identificação e memorização • Folha de cola para destacar com informações práticas • Listas dos 10 melhores itens relacionados ao assunto • Um toque de humor e diversão ",
+                "https://images-na.ssl-images-amazon.com/images/I/61ZuOhovbJS.jpg",
                 categoryRepository.getById(25)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Do átomo ao buraco negro: Para descomplicar a astronomia",
+                24.90,
+                "Criador do Poligonautas, canal de ciência no YouTube, com mais de 700 mil seguidores Depois de inventar a roda, aprender a manipular o fogo, desbravar os sete mares e espalhar sua presença pelo globo terrestre, o ser humano passou a mirar o céu: era o novo oceano a ser explorado. De lá pra cá muita coisa aconteceu e a curiosidade sobre o Universo só aumentou. Para nos ajudar nesta expedição, o autor e divulgador científico Schwarza embarca numa jornada que tem início no caótico universo quântico, passando por objetos que vão de planetas a buracos negros de tamanhos que desafiam a nossa imaginação. Em Do átomo ao buraco negro – para descomplicar a astronomia, entenda como funcionam as estrelas, galáxias, quasares, planetas e mais de 60 objetos astronômicos, em um livro que vai além do que os seus olhos podem ver.",
+                "https://images-na.ssl-images-amazon.com/images/I/910Om0O1zCL.jpg",
                 categoryRepository.getById(25)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A História do Universo para quem tem pressa: Do Big Bang às mais recentes descobertas da astronomia! ",
+                21.59,
+                "Os grandes mistérios e maravilhas do céu noturno sempre nos fascinaram, intrigaram e divertiram, desde os primeiros passos na Terra. Hoje, continuamos nos esforçando para entender o nosso lugar no cosmos.O século 20 foi palco de importantes e assombrosas descobertas sobre o nosso próprio planeta, o sistema solar, as estrelas e as galáxias. Contudo, ainda buscamos respostas para inúmeras questões – O que é matéria escura? Estamos sozinhos no universo? É possível viajar no tempo? –, e essa busca nos proporciona uma valiosa compreensão da vastidão e das infinitas possibilidades do espaço universal que ainda estamos por descobrir.O universo, considerando-se a sua imensidão, pode ser assustador, mas neste livro de fácil compreensão embarcamos numa viagem incrível através de todas as descobertas astronômicas fundamentais, desde as resultantes de crenças de civilizações antigas até as oriundas de pioneiras e recentes observações das ondas gravitacionais, previstas por Einstein mais de 100 anos atrás. Nunca houve ocasião melhor para começar a entender os mistérios do universo, e este guia essencial do cosmos é o melhor ponto de partida!",
+                "https://images-na.ssl-images-amazon.com/images/I/819pAW6nzsL.jpg",
                 categoryRepository.getById(25)));
 
         // - Botânica (26)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A Magia das Folhas: 365 Plantas e Seus Poderes: 2",
+                46.33,
+                "Em 'O Poder das Folhas' - volume 1 da Trilogia Folhas Sagradas - você aprendeu a identificar e classificar as plantas por suas características mágicas e também aprendeu a combiná-las para criar suas próprias receitas de poder... Agora chegou a hora de dar um passo adiante! Cada raiz, cada folha, flor ou semente traz em si um universo de energias que podem ser despertadas e utilizadas nos seus rituais, banhos e defumações para que você possa usufruir da magia da natureza e transformar a realidade ao seu redor! Por isso, A Magia das Folhas - o volume dois da trilogia - é o maior dicionário de ervas mágicas do país: um guia detalhado de ingredientes e elementos mágicos que podem ser encontrados facilmente na despensa de casa, no quintal ou nos mercados mais próximos. Um guia de estudos e referências, repleto de informações fundamentais e importantíssimas, criado especialmente para o seu dia-a-dia. São 365 plantas classificadas por seus poderes mágicos e seus Orixás regentes, organizadas em 5 eixos temáticos: limpeza, defesa e descarrego espiritual; abertura de caminhos; prosperidade; harmonização; e amor e atração.",
+                "https://images-na.ssl-images-amazon.com/images/I/91rEONlp8mL.jpg",
                 categoryRepository.getById(26)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Herbologia Mágica: a Cura Pela Natureza com Base na Fitoterapia e na Botânica Oculta",
+                72.43,
+                "Num momento em que a indústria farmacêutica se volta para dedicar-se cada vez mais a produtos químicos sintéticos na produção de remédios, Tânia Gori toma uma via oposta. Sua obra é caleidoscópica. Tem como foco o mundo natural, de onde recolhe ervas e toda a gama de produtos originários da flora. O caleidoscópio está no modo como se organiza o livro: há uma parte introdutória com indicações precisas para a colheita, preparo, conservação de ervas, em conformidade com o fim a que elas se destinam. As plantas, apresentadas em ordem alfabética, prestam-se a muitas finalidades. Os verbetes se iniciam com uma referência à origem do vegetal, seu histórico e um conjunto de informações presente em todos eles: nome popular, científico, e função terapêutica, complementados pelas referências a planeta regente, elemento e deidades. A partir daí, seguem-se diversas aplicações propiciadas pela erva: remédios, banhos, perfumes, sortilégios, talismãs. De muitas delas se destacam as propriedades aromáticas; de outras, as possibilidades gastronômicas, com receitas para produzir os mais diferentes pratos. Os afinados com o esoterismo terão ali muitas informações interessantes e surpreendentes. O estilo leve torna a leitura agradável e atende plenamente o interessa do leitor que procura por informações com mais de 150 ervas.",
+                "https://images-na.ssl-images-amazon.com/images/I/71ggLNo6h5L.jpg",
                 categoryRepository.getById(26)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Introdução a Botânica",
+                45.00,
+                "Este livro tem por objetivo o estudo dos termos utilizados para as partes das plantas, suas variações, origens e relações com o meio ambiente, além de aspectos ligados à evolução dos vegetais. Destina-se a estudantes de nível superior, estudantes de nível médio e botânicos amadores e autodidatas. O livro está dividido em sete partes - A organização geral de uma Angiosperma; Raiz, Caule, Folha, Flor, Inflorescência e Fruto, cada uma delas ricamente ilustrada, totalizando mais de 400 fotografias coloridas de órgãos vegetais, principalmente de espécies de uso popular. Assim, o leitor pode facilmente confrontar as informações com as plantas utilizadas no seu dia a dia. Mesclamos informações técnicas com aspectos práticos, buscando esclarecer pontos que normalmente são levantados pelos estudantes.",
+                "https://images-na.ssl-images-amazon.com/images/I/61G33+6G8fL.jpg",
                 categoryRepository.getById(26)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Árvores Brasileiras. Manual de Identificação e Cultivo de Plantas Arbóreas Nativas do Brasil - Volume 2",
+                130.00,
+                "Trata-se de um livro luxuoso no formato 21 x 31 cm, com 384 páginas, apresenta uma planta por página contend, fotografias coloridas da árvore adulta, detalhe de um ramo florífero, fruto, semente, tronco e madeira, de 352 espécies de árvores existentes no país (principalmente as raras e ameaçadas de extinção).Contém ainda informações escritas sobre as características de cada planta, sua fenologia, ocorrência, obtenção de sementes e mudas, etc. Totalmente impresso em papel couchê liso importado de 115g e encadernado em capa dura. De autoria do Eng. Agr. Harri Lorenzi.",
+                "https://images-na.ssl-images-amazon.com/images/I/819ff46SkiL.jpg",
                 categoryRepository.getById(26)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A vida secreta das árvores",
+                17.30,
+                "E se tudo o que você sempre pensou saber a respeito das árvores estivesse errado? E se, apesar de tão diferentes de nós, descobríssemos que elas compartilham diversas características dos humanos? Nos últimos anos a ciência tem comprovado que as árvores e o homem têm muito mais em comum do que poderíamos imaginar. Assim como nós, elas se comunicam, mantêm relacionamentos, formam famílias, cuidam dos doentes e dos filhos, têm memória, defendem-se de agressores e competem ferozmente com outras espécies – às vezes, até com outras árvores da mesma espécie. Algumas são naturalmente solitárias, enquanto outras só conseguem viver plenamente se fizerem parte de uma comunidade. E, assim como nós, cada uma se adapta melhor a determinado ambiente. Em A vida secreta das árvores, o engenheiro florestal alemão Peter Wohlleben alia seus 20 anos de experiência às últimas descobertas científicas para examinar o dia a dia desses seres fantásticos. Com um ponto de vista surpreendente e inovador, o livro se tornou um fenômeno na Alemanha, entrou para a lista de mais vendidos do The New York Times e teve seus direitos negociados para 18 países. Essa viagem fascinante pela vida das árvores e florestas é um convite a repensarmos nossa relação com a natureza.",
+                "https://images-na.ssl-images-amazon.com/images/I/61b-nr12xQL.jpg",
                 categoryRepository.getById(26)));
 
         // - Arqueologia (27)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "A arqueologia passo a passo",
+                25.53,
+                "De um modo ou de outro, tudo o que brota da terra retorna a ela um dia. No solo ou na água, em climas frios ou secos, a terra encerra e protege as ruínas e os objetos esquecidos pelo homem, resquícios de civilizações antigas. Os arqueólogos estudam esses vestígios, revelando aspectos importantes sobre a vida dos homens de antigamente e sobre as mudanças climáticas que modificaram o planeta. Atualmente, os arqueólogos estão por toda parte, em montes e vales, sob os mares e nas cidades. Eles investigam todos os períodos da humanidade, das nossas origens até os dias de hoje, e examinam as culturas antigas, tanto as desaparecidas quanto as antepassadas diretas das sociedades atuais. Ao acompanhar o seu trabalho passo a passo, neste guia sobre a arqueologia, aprendemos não só a respeito dos vários ramos dessa ciência e os diversos métodos utilizados pelos arqueólogos para encontrar e estudar ruínas e sítios arqueológicos, mas também sobre a história do nosso planeta e de todos que o ocuparam. Muitos desses vestígios vêm sendo apagados pela ação do próprio ser humano, seja no reaproveitamento de materiais, seja em projetos de utilização do território - como a edificação de uma grande barragem que inundará um vale inteiro, de um estacionamento subterrâneo ou de uma linha de metrô. Ao falar sobre a arqueologia preventiva, este livro chama atenção dos jovens para alguns cuidados a serem tomados nos dias de hoje, e nos ensina que a incerteza quanto ao futuro pode ser atenuada por um conhecimento mais amplo do passado.",
+                "https://images-na.ssl-images-amazon.com/images/I/91W8rf1CF6S.jpg",
                 categoryRepository.getById(27)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Uma breve história da arqueologia",
+                27.94,
+                "'A extraordinária história da aventura arqueológica Faraós dourados e civilizações perdidas, crânios de neandertais e arte rupestre em cavernas da Era do Gelo – a arqueologia nos possibilita o contato com tudo isso e muito mais. Como ciência surgiu relativamente há pouco tempo – no século XVIII, usando métodos como coleta e escavação para acessar culturas e costumes de povos antigos que habitaram o planeta antes de nós. Verdadeira área de estudos multidisciplinar, tem interfaces com a política, a geologia, a biologia, a botânica... E é a única ciência a abranger toda a história humana: mais de três milhões de anos. Brian Fagan, especialista internacional em pré-história, revisita aqui as aventuras e os feitos de alguns dos maiores arqueólogos, incluindo palácios da Grécia antiga, ruínas maias, a Pedra de Roseta, o misterioso círculo de Stonehenge e Pompeia, a cidade enterrada por cinza vulcânica no ano 79. Vemos como, graças a homens e mulheres curiosos e persistentes, a compreensão sobre o passado humano foi se tornando mais rica, com o conhecimento científico e a pesquisa criteriosa derrotando a ignorância e o preconceito.'",
+                "https://images-na.ssl-images-amazon.com/images/I/81++2thdyUL.jpg",
                 categoryRepository.getById(27)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "O grande livro dos mistérios antigos",
+                63.35,
+                "Durante séculos, filósofos, cientistas e charlatões tentaram decifrar os mistérios desconcertantes do nosso passado, de Stonehenge ao continente perdido da Atlântida. Hoje, no entanto, testes de DNA, datação por radiocarbono e outras ferramentas de investigação de ponta, juntamente com uma dose saudável de bom senso, estão nos guiando para mais perto da verdade. Agora, o historiador Peter James e o arqueólogo Nick Thorpe abordam esses enigmas antigos, apresentando as informações mais recentes da comunidade científica e os desafios mais surpreendentes para explicações tradicionais de mistérios, como: • A ascensão e a queda dos maias; • A maldição de Tutancâmon; • A devastação de Sodoma e Gomorra; • As linhas de Nazca e o mapa de Vinland; • A existência de Robin Hood. Essas verdadeiras histórias de mistério se distorcem e se transformam em uma boa história policial, enquanto James e Thorpe apresentam as evidências a favor e contra as teorias especializadas, lançando nova luz sobre a antiga luta da humanidade para dar sentido ao passado. O Grande Livro dos Mistérios Antigos vai entreter e iluminar, encantar os curiosos e informar os mais sérios.",
+                "https://images-na.ssl-images-amazon.com/images/I/91hNEdsd+1L.jpg",
                 categoryRepository.getById(27)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Arqueologia",
+                31.49,
+                "O estrondoso sucesso dos filmes de Indiana Jones ajudou a consolidar a ideia do arqueólogo como um romântico aventureiro. Este livro mostra que, descontada a magia típica do cinema, tal imagem popular tem mesmo um fundo de verdade. Mais do que simplesmente \"cavar buracos\" para descobrir objetos antigos, a Arqueologia é uma ciência com métodos próprios que desenvolve sobretudo a capacidade de \"ler\" o que nos dizem os vestígios encontrados. O autor revela em linguagem acessível como agem e pensam os arqueólogos e quais os caminhos para quem quer se tornar arqueólogo no Brasil. Demonstra que essa é uma profissão que exige certo esforço físico e disponibilidade diante dos desafios do desconhecido - dois ingredientes indispensáveis, afinal, a toda grande aventura.",
+                "https://images-na.ssl-images-amazon.com/images/I/71YXUKJYv-L.jpg",
                 categoryRepository.getById(27)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Forbidden Archeology: The Full Unabridged Edition",
+                197.11,
+                "Over the centuries, researchers have found bones and artifacts proving that humans like us have existed for millions of years. Mainstream science, however, has supppressed these facts. Prejudices based on current scientific theory act as a knowledge filter, giving us a picture of prehistory that is largely incorrect.",
+                "https://images-na.ssl-images-amazon.com/images/I/818zkOJF6eL.jpg",
                 categoryRepository.getById(27)));
 
         // - Culinária (28)
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Divina alquimia: Receitas veganas",
+                89.47,
+                "Desde que descobriu o poder da culinária natural em sua vida, Patricia Helú se dedica à criação de receitas, adaptando o tradicional em opções nutritivas e saborosas. Sua maior paixão é compartilhá-las para inspirar e empoderar as pessoas na cozinha. Com preparos à base do mundo vegetal, a autora apresenta receitas criativas e acessíveis a todos os níveis de intimidade com a cozinha. Dividido por ocasiões, que vão de um almoço na praia a um banquete árabe, Divina alquimia promete trazer novas misturas e inúmeras possibilidades para uma cozinha diária mais leve e deliciosa.",
+                "https://images-na.ssl-images-amazon.com/images/I/81aQobTh7BS.jpg",
                 categoryRepository.getById(28)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Le Cordon Bleu : Todas as técnicas culinárias",
+                129.99,
+                "Este livro é a 'bíblia' da escola de culinária mais prestigiada do mundo. Com mais de 800 segredos de preparação e técnicas de cozinha, ilustrados passo a passo, inclui também dicas, sugestões e receitas dos tops chefs da escola. - Um guia completo e ilustrado de ingredientes e técnicas, desde as mais simples até as mais avançadas. - Ensina dicas, sugestões, artimanhas e truques de experts para conseguir o melhor resultado sempre. - Com mais de 2000 fotografias e ilustrações especiais. - Com receitas que vão da cozinha clássica francesa e italiana às tradições culinárias do Oriente. - Garante o sucesso de todas as receitas, das mais simples às mais complexas e sofisticadas. - Um clássico da cozinha de todas as épocas.",
+                "https://images-na.ssl-images-amazon.com/images/I/51rf+kqLPZL.jpg",
                 categoryRepository.getById(28)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Cozinha prática",
+                58.24,
+                "Neste novo livro, Rita Lobo apresenta 60 receitas e todas as dicas, técnicas culinárias e truques de economia doméstica da temporada de básicos do programa Cozinha Prática, do GNT. Um curso de culinária em 13 capítulos muito bem explicados e ilustrados. Conhece alguém que ainda foge do fogão? Essa pessoa é você? Este livro pode mudar a sua vida.",
+                "https://images-na.ssl-images-amazon.com/images/I/91AptHZ+ELL.jpg",
                 categoryRepository.getById(28)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Pão nosso: receitas caseiras com fermento natural",
+                70.28,
+                "Imagine assar em casa um pão melhor que o da padaria. É isso que você vai aprender em Pão nosso. Além de ensinar os segredos do levain, o fermento natural, Luiz Américo Camargo ainda propõe receitas caseiras que passaram pelo seu rigor de crítico de gastronomia. São dezenas de pães: integral, de nozes, de azeitona, de mandioca, baguete, até panetone tem. E você também vai encontrar refeições inteiras em torno das fornadas. Da irresistível salada panzanella, passando pela surpreendente rabanada salgada até um ragu de linguiça que é de limpar o prato ― com pão, naturalmente.",
+                "https://images-na.ssl-images-amazon.com/images/I/91vr79mVf+L.jpg",
                 categoryRepository.getById(28)));
 
         bookRepository.save(new Book(
-                "",
-                00.00,
-                "",
-                "",
+                "Só para um: alimentação saudável para quem mora sozinho: 3",
+                48.10,
+                "Mora sozinho e quer comer melhor? Rita Lobo ensina você a vencer os obstáculos da cozinha para um ― sem precisar cozinhar do zero a cada refeição. Além de receitas saborosas e muitas técnicas culinárias, este livro traz soluções incríveis para a sua rotina: tem receita em uma panela só, tem uma aula completa de pê-efe, tem dicas desde a lista de compras até a hora de lavar a louça. Sem nem perceber, você vai ficar craque em planejamento. Vai aprender a armazenar, congelar e aproveitar melhor (e reaproveitar!) os alimentos. Vai saber montar uma despensa básica e escolher os utensílios. E ainda vai se divertir na cozinha. Só para um é uma ferramenta fundamental para você manter uma alimentação sempre saudável.",
+                "https://images-na.ssl-images-amazon.com/images/I/91H6GA+2CmL.jpg",
                 categoryRepository.getById(28)));
+
+        // - Astrologia (29)
+        bookRepository.save(new Book(
+                "Astrologia sem Segredos: Um Guia Para Você Aprender Astrologia de Modo Fácil e Eficiente",
+                34.50,
+                "Repleto de ilustrações e exemplos, Astrologia sem Segredos mostra como você pode usar a astrologia de forma prática para melhorar a sua própria vida e a das outras pessoas. Este curso idealizado por uma das principais astrólogas do mundo vai lhe ensinar desde os princípios básicos até a interpretação de um mapa inteiro. Com este livro, você vai descobrir como a astrologia funciona, quando usá-la e como adquirir conhecimentos avançados dessa arte.",
+                "https://images-na.ssl-images-amazon.com/images/I/81S1qCT0YvL.jpg",
+                categoryRepository.getById(29)));
+
+        bookRepository.save(new Book(
+                "Manual de Astrologia Horaria - Edicao Revista",
+                190.52,
+                "Astrologia horária é o ramo da astrologia que encontra respostas claras e precisas para perguntas específicas. Rápida e simples, a horária foi, durante séculos, o item mais valioso da caixa de ferramentas do astrólogo. Seja a pergunta sobre amor, carreira, doença (ou sobre a previsão do tempo para um churrasco), este guia claro e abrangente feito por um mestre moderno da horária vai mostrar a você como respondê-la. A primeira edição deste livro ganhou rapidamente o status de clássico do ensino em astrologia. Com esta nova versão, esse grande mestre da arte compartilha o que passou a compreender melhor, oferecendo o que aprendeu nestes anos de ensino e prática, clarificando, expandindo e corrigindo o texto original. Com a inteligência e a lucidez que caracterizam sua escrita, o autor guia a todos, de iniciantes a praticantes experimentados, até o coração da astrologia horária. A capacidade de frawley como astrólogo horário é impressionante - the mountain astrologer.",
+                "https://images-na.ssl-images-amazon.com/images/I/616WIpvTCTL.jpg",
+                categoryRepository.getById(29)));
+
+        bookRepository.save(new Book(
+                "Os Signos do Zodíaco: Um Guia Prático para Entender a Astrologia Contemporânea",
+                31.10,
+                "Em Os Signos do Zodíaco, a astróloga e coach Carolyne Faulkner revela como a antiga sabedoria dos astros pode nos ajudar a aproveitar a vida ao máximo. Seu método, denominado “Astrologia Dinâmica”, consiste em descobrir as boas e más qualidades associadas ao nosso mapa astral e em usar esse conhecimento para fundamentar nossas decisões e relacionamentos. Fácil de aplicar, este manual de astrologia prática ajuda a melhorar nossa saúde emocional, espiritual e física e a aumentar o bem-estar geral.",
+                "https://images-na.ssl-images-amazon.com/images/I/81id8t8YYFL.jpg",
+                categoryRepository.getById(29)));
+
+        bookRepository.save(new Book(
+                "Astrologia dos Relacionamentos Íntimos: Fatores Energéticos do Amor, Sexo e Compatibilidade",
+                36.68,
+                "Com uma linguagem clara e articulada, Arroyo descreve a interação dinâmica entre duas pessoas do ponto de vista energético, mostrando como elas \"alimentam\" ou estimulam uma à outra ou como se esgotam ou se bloqueiam mutuamente. Ele também elucida um tipo acessível e prático de \"psicologia cósmica\", que focaliza a experiência interior da pessoa, e identifica suas flutuações de energia nos altos e baixos da vida, tanto no nível individual como nos relacionamentos. Neste livro, Arroyo enfatiza a experiência real das pessoas, citando vários clientes, respostas a questionários e centenas de entrevistas, mostrando na prática o que os livros abstratos e teóricos sobre astrologia meramente sugerem. E procura focalizar princípios energéticos que a maioria das pessoas pode identificar em seus relacionamentos e aplicar na própria vida.",
+                "https://images-na.ssl-images-amazon.com/images/I/716Grww1shL.jpg",
+                categoryRepository.getById(29)));
+
+        bookRepository.save(new Book(
+                "Normas Práticas Para a Interpretação do Mapa Astral: Uma Obra De Referência Para Pensar Astrologicamente",
+                22.45,
+                "Stephen Arroyo, considerado por especialistas como o maior astrólogo do século XX, continua a nos brindar com obras que nos ajudam no difícil processo do autoconhecimento, em que a astrologia se torna uma importante ferramenta para a ampliação dos nossos horizontes emocionais, psicológicos e espirituais. Atendendo aos pedidos de seus inúmeros leitores e alunos de diversas partes do mundo, que ansiavam por um manual de fácil compreensão e que, ao mesmo tempo, reunisse os significados e fatores mais básicos da astrologia numa soberba obra de referência, o autor nos traz neste livro uma obra que não apenas facilita a localização de conceitos fundamentais e detalhes para a interpretação de mapas, mas também serve de guia para ajudar as pessoas a pensar astrologicamente.",
+                "https://images-na.ssl-images-amazon.com/images/I/71JJTkvF6XL.jpg",
+                categoryRepository.getById(29)));
+
     }
+
+
 
 }
