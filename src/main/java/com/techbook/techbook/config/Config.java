@@ -33,7 +33,7 @@ public class Config implements CommandLineRunner {
 
         profileRepository.save(new Profile("Giovani Silva", "https://github.com/giovanispaula", "", "", "giovannispaula@gmail.com", ""));
         profileRepository.save(new Profile("Marcos Spano", "https://github.com/marcosspano", "", "", "e.marcosspano@gmail.com", ""));
-        profileRepository.save(new Profile("Nathalia Vieira", "", "", "", "naahviera@gmail.com", ""));
+        profileRepository.save(new Profile("Nathalia Vieira", "https://github.com/nathsilvavieira", "https://www.linkedin.com/in/nathalia-vieira93/", "", "naahviera@gmail.com", ""));
         profileRepository.save(new Profile("Túlio Xavier", "https://github.com/tuliopxavier", "", "", "tuliopxavier@gmail.com", ""));
 
         categoryRepository.save(new Category("TECNOLOGIA", "Tecnologia"));
