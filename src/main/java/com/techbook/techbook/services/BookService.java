@@ -1,5 +1,6 @@
 package com.techbook.techbook.services;
 
+import com.techbook.techbook.dto.BookDTO;
 import com.techbook.techbook.entities.*;
 import com.techbook.techbook.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,6 @@ public class BookService {
         Integer idCategory = categories.get(0).getId();
         return bookRepository.findByCategoryId(idCategory);
     }
-
 
 
 }

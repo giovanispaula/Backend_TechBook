@@ -4,6 +4,8 @@ import com.techbook.techbook.dto.BookDTO;
 import com.techbook.techbook.entities.Book;
 import com.techbook.techbook.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
+import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,8 +26,8 @@ public class BookController {
 
     //exibe todos os livros
     @GetMapping
-    public ResponseEntity<List<Book>> listBooks() {
-        return ResponseEntity.ok(bookService.listBooks());
+    public ResponseEntity<List<BookDTO>> listBooks() {
+        return ResponseEntity.ok(bookService.listBooks().stream().map(BookDTO::BookToDTO).collect(Collectors.toList()));
     }
 
     //exibe livro por ID
@@ -43,4 +45,5 @@ public class BookController {
                 bookService.getAllByType(type).stream().map(BookDTO::BookToDTO).collect(Collectors.toList())
         );
     }
+
 }

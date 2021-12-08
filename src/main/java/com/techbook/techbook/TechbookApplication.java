@@ -1,11 +1,8 @@
 package com.techbook.techbook;
 
-import com.techbook.techbook.entities.*;
-import com.techbook.techbook.repositories.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 public class TechbookApplication implements CommandLineRunner{

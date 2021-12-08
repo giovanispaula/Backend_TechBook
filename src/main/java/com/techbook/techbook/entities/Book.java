@@ -38,11 +38,11 @@ public class Book implements Serializable {
         this.category = category;
     }
 
-    public Book(Integer id, String title, Double price, String description, String image) {
-        this.id = id;
-        this.title = title;
-        this.price = price;
-        this.description = description;
-        this.image = image;
-    }
+//    public Book(Integer id, String title, Double price, String description, String image) {
+//        this.id = id;
+//        this.title = title;
+//        this.price = price;
+//        this.description = description;
+//        this.image = image;
+//    }
 }
