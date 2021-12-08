@@ -24,13 +24,6 @@ public class Config implements CommandLineRunner {
     @Override
     public void run(String...args) throws Exception {
 
-//        this.fullName = fullName;
-//        this.urlGit = urlGit;
-//        this.urlLinkedin = urlLinkedin;
-//        this.urlPhoto = urlPhoto;
-//        this.mail = mail;
-//        this.description = description;
-
         profileRepository.save(new Profile("Giovani Silva", "https://github.com/giovanispaula", "https://www.linkedin.com/in/giovanispaula/", "", "giovannispaula@gmail.com", ""));
         profileRepository.save(new Profile("Marcos Spano", "https://github.com/marcosspano", "", "", "e.marcosspano@gmail.com", ""));
         profileRepository.save(new Profile("Nathalia Vieira", "https://github.com/nathsilvavieira", "https://www.linkedin.com/in/nathalia-vieira93/", "", "naahviera@gmail.com", ""));
