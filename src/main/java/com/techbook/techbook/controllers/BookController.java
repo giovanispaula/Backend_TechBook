@@ -10,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @CrossOrigin(origins = "*", allowedHeaders = "")
@@ -32,8 +33,8 @@ public class BookController {
 
     //exibe livro por ID
     @GetMapping("/{id}")
-    public ResponseEntity<Book> listId(@PathVariable Integer id) {
-        Book books = bookService.listId(id).orElse(null);
+    public ResponseEntity<BookDTO> listId(@PathVariable Integer id) {
+        BookDTO books = BookDTO.BookToDTO(Objects.requireNonNull(bookService.listId(id).orElse(null)));
         return ResponseEntity.ok(books);
     }
 
