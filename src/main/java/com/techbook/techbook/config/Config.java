@@ -24,10 +24,10 @@ public class Config implements CommandLineRunner {
     @Override
     public void run(String...args) throws Exception {
 
-        profileRepository.save(new Profile("Giovani Silva", "https://github.com/giovanispaula", "https://www.linkedin.com/in/giovanispaula/", "", "giovannispaula@gmail.com", ""));
+        profileRepository.save(new Profile("Giovani Silva", "https://github.com/giovanispaula", "https://www.linkedin.com/in/giovanispaula/", "https://avatars.githubusercontent.com/u/85377008?v=4", "giovannispaula@gmail.com", ""));
         profileRepository.save(new Profile("Marcos Spano", "https://github.com/marcosspano", "", "", "e.marcosspano@gmail.com", ""));
-        profileRepository.save(new Profile("Nathalia Vieira", "https://github.com/nathsilvavieira", "https://www.linkedin.com/in/nathalia-vieira93/", "", "naahviera@gmail.com", ""));
-        profileRepository.save(new Profile("Túlio Xavier", "https://github.com/tuliopxavier", "", "", "tuliopxavier@gmail.com", ""));
+        profileRepository.save(new Profile("Nathalia Vieira", "https://github.com/nathsilvavieira", "https://www.linkedin.com/in/nathalia-vieira93/", "https://avatars.githubusercontent.com/u/83051644?v=4", "naahviera@gmail.com", ""));
+        profileRepository.save(new Profile("Túlio Xavier", "https://github.com/tuliopxavier", "", "https://avatars.githubusercontent.com/u/68478459?v=4", "tuliopxavier@gmail.com", ""));
 
         categoryRepository.save(new Category("TECNOLOGIA", "Tecnologia"));
         categoryRepository.save(new Category("DIREITO", "Direito"));
